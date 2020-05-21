@@ -1,0 +1,497 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Adamina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background: white;
+  background: linear-gradient(180deg, white 0%, #c2c1c1 100%);
+  overflow-x: hidden; }
+  body header {
+    z-index: 1000;
+    background: #3a6ea5;
+    margin-bottom: 10px; }
+    body header .navbar-brand {
+      margin-left: 20px; }
+    body header a {
+      color: #ebebeb;
+      font-family: 'Adamina', serif;
+      outline: 0; }
+    body header .navbarLogo a {
+      font-family: 'Kaushan Script', cursive;
+      font-size: 40px; }
+    body header .navbarLogo a:hover {
+      text-decoration: none; }
+  body #overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    z-index: 9999; }
+    body #overlay .cssload-loader {
+      width: 625px;
+      height: 125px;
+      line-height: 125px;
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      font-family: helvetica, arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 45px;
+      background: linear-gradient(to right, darkcyan, orange);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.2em; }
+    body #overlay .cssload-loader::before, body #overlay .cssload-loader::after {
+      content: "";
+      display: block;
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(to right, orange, darkcyan);
+      position: absolute;
+      animation: cssload-load 0.400s infinite alternate ease-in-out;
+      -o-animation: cssload-load 0.400s infinite alternate ease-in-out;
+      -ms-animation: cssload-load 0.400s infinite alternate ease-in-out;
+      -webkit-animation: cssload-load 0.400s infinite alternate ease-in-out;
+      -moz-animation: cssload-load 0.400s infinite alternate ease-in-out; }
+    body #overlay .cssload-loader::before {
+      top: 0; }
+    body #overlay .cssload-loader::after {
+      bottom: 0; }
+
+@keyframes cssload-load {
+  0% {
+    left: 0;
+    height: 75px;
+    width: 38px; }
+  50% {
+    height: 20px;
+    width: 100px; }
+  100% {
+    left: 588px;
+    height: 75px;
+    width: 38px; } }
+
+@-o-keyframes cssload-load {
+  0% {
+    left: 0;
+    height: 75px;
+    width: 38px; }
+  50% {
+    height: 20px;
+    width: 100px; }
+  100% {
+    left: 588px;
+    height: 75px;
+    width: 38px; } }
+
+@-ms-keyframes cssload-load {
+  body #overlay 0% {
+    left: 0;
+    height: 75px;
+    width: 38px; }
+  body #overlay 50% {
+    height: 20px;
+    width: 100px; }
+  body #overlay 100% {
+    left: 588px;
+    height: 75px;
+    width: 38px; } }
+
+@-webkit-keyframes cssload-load {
+  0% {
+    left: 0;
+    height: 75px;
+    width: 38px; }
+  50% {
+    height: 20px;
+    width: 100px; }
+  100% {
+    left: 588px;
+    height: 75px;
+    width: 38px; } }
+
+@-moz-keyframes cssload-load {
+  0% {
+    left: 0;
+    height: 75px;
+    width: 38px; }
+  50% {
+    height: 20px;
+    width: 100px; }
+  100% {
+    left: 588px;
+    height: 75px;
+    width: 38px; } }
+  body .footer-section {
+    width: 100%;
+    height: 200px;
+    background: #004e98;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 150px; }
+    body .footer-section .social-networks {
+      width: 200px;
+      margin-bottom: 30px; }
+      body .footer-section .social-networks .logo-div {
+        margin-right: 24px; }
+      body .footer-section .social-networks .logo-div:last-child {
+        margin-right: 0; }
+      body .footer-section .social-networks img {
+        width: 26px; }
+      body .footer-section .social-networks .inst-logo {
+        width: 33px;
+        margin-top: -4px; }
+      body .footer-section .social-networks .linked-logo {
+        margin-left: 3px;
+        width: 26px; }
+      body .footer-section .social-networks .git-logo {
+        width: 29px;
+        margin-top: -1px;
+        margin-left: -3px; }
+      body .footer-section .social-networks .last-a {
+        margin-right: 0px; }
+    body .footer-section .copyrights {
+      font-size: 20px; }
+      body .footer-section .copyrights .copyrights-logo {
+        padding-right: 5px; }
+        body .footer-section .copyrights .copyrights-logo img {
+          width: 30px; }
+      body .footer-section .copyrights .ikadnl {
+        margin: auto 0; }
+        body .footer-section .copyrights .ikadnl p {
+          position: relative;
+          font-family: sans-serif;
+          text-transform: uppercase;
+          font-size: 20px;
+          letter-spacing: 4px;
+          overflow: hidden;
+          background: linear-gradient(90deg, orange, white, orange);
+          background-repeat: no-repeat;
+          background-size: 80%;
+          animation: animate 3s linear infinite;
+          background-clip: text;
+          -webkit-text-fill-color: rgba(255, 255, 255, 0); }
+
+@keyframes animate {
+  0% {
+    background-position: -500%; }
+  100% {
+    background-position: 500%; } }
+    body .footer-section .contacts .contacts-name {
+      margin-top: -10px;
+      font-size: 30px;
+      padding-bottom: 25px;
+      color: #ff6700; }
+    body .footer-section .contacts .info-type {
+      padding-bottom: 10px; }
+    body .footer-section .contacts .contacts-colon {
+      color: #ff6700;
+      padding-right: 5px;
+      font-size: 20px; }
+    body .footer-section .contacts .contacts-info {
+      color: #ebebeb;
+      font-size: 20px; }
+      body .footer-section .contacts .contacts-info a {
+        color: #ebebeb !important;
+        outline: 0; }
+
+.overflowh {
+  overflow-y: hidden; }
+
+.welcomeDiv {
+  margin-top: 150px;
+  padding-bottom: 210px; }
+
+.welcomePhoto img {
+  width: 400px;
+  border: solid 5px red;
+  border-radius: 50%; }
+
+.welcomeText {
+  width: 485px;
+  height: 300px;
+  background: white;
+  margin-left: -40px;
+  border-radius: 13%;
+  border: solid 1px black; }
+  .welcomeText p {
+    margin: 15px;
+    font-size: 50px; }
+
+.welcomeButton {
+  margin-top: 260px;
+  background-color: white;
+  border-radius: 15%; }
+
+.section01 {
+  margin-top: 140px; }
+  .section01 .skill-div {
+    margin: 0px 100px;
+    height: 400px;
+    width: 647px;
+    background: #99ddcc;
+    border-radius: 30px; }
+    .section01 .skill-div .skill-scale {
+      margin-right: -10%; }
+    .section01 .skill-div .skill-field {
+      padding: 20px 0px 12px 0px;
+      font-size: 40px; }
+    .section01 .skill-div .skill-name {
+      padding-top: 10px;
+      padding-bottom: 5px;
+      font-size: 25px; }
+    .section01 .skill-div .skill-bar {
+      height: 30px;
+      width: 100%;
+      background: white;
+      border-radius: 25px; }
+      .section01 .skill-div .skill-bar .english {
+        width: 80%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .german {
+        width: 82%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .russian {
+        width: 71%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .georgian {
+        width: 120%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .html01 {
+        width: 100%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .scss {
+        width: 85%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .javascript {
+        width: 67%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .msoffice {
+        width: 88%;
+        height: 100%;
+        background: #000;
+        border-radius: 25px; }
+
+.section02 {
+  border: 4px solid lightblue;
+  margin-top: 225px; }
+  .section02 .spam-box {
+    width: auto;
+    height: 350px;
+    background: orangered; }
+    .section02 .spam-box .spam-title {
+      font-size: 40px;
+      font-weight: bold; }
+      .section02 .spam-box .spam-title p {
+        margin-top: 17px;
+        padding: 6px;
+        border: solid 4px black; }
+    .section02 .spam-box .spam-texts {
+      padding-top: 100px;
+      font-size: 21px;
+      word-break: break-all; }
+      .section02 .spam-box .spam-texts .rotated45 {
+        transform: rotate(45deg); }
+      .section02 .spam-box .spam-texts .rotated60 {
+        transform: rotate(60deg); }
+      .section02 .spam-box .spam-texts .rotated-30 {
+        transform: rotate(-30deg); }
+      .section02 .spam-box .spam-texts .rotated-45 {
+        transform: rotate(-45deg); }
+      .section02 .spam-box .spam-texts .red {
+        color: red; }
+      .section02 .spam-box .spam-texts .blue {
+        color: blue; }
+
+.section01-cv {
+  margin-top: 150px; }
+  .section01-cv .section-box {
+    width: 400px;
+    height: 300px;
+    background: darkcyan;
+    margin-right: 50px;
+    transition: all 1000ms linear; }
+    .section01-cv .section-box #myDIV {
+      display: none; }
+    .section01-cv .section-box .close-button {
+      display: none; }
+  .section01-cv .section-box:last-child {
+    margin-right: 0px; }
+
+.section01-projects {
+  margin-top: 150px; }
+  .section01-projects .line-div {
+    width: 800px;
+    border: solid 3px black;
+    margin: 78px auto; }
+  .section01-projects .project .embed-content {
+    border-radius: 25px; }
+    .section01-projects .project .embed-content img {
+      width: 560px;
+      height: 535px;
+      border-radius: 15px; }
+    .section01-projects .project .embed-content a {
+      outline: 0; }
+    .section01-projects .project .embed-content #ulala-geo {
+      display: none; }
+    .section01-projects .project .embed-content .overlay-box {
+      position: relative; }
+      .section01-projects .project .embed-content .overlay-box .overlay {
+        position: absolute;
+        left: 50%;
+        bottom: 300px;
+        font-size: 60px;
+        color: black;
+        text-transform: uppercase; }
+  .section01-projects .project .embed-name {
+    text-align: center;
+    padding-bottom: 75px;
+    font-size: 36px; }
+  .section01-projects .project .embed-info {
+    line-height: 25px;
+    padding-left: 50px; }
+
+.section01-interview {
+  margin-top: 100px; }
+  .section01-interview .title-box {
+    width: 100%; }
+    .section01-interview .title-box .interview-title {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 40px; }
+
+.section02-interview {
+  margin-top: 30px; }
+  .section02-interview .dialogue-box {
+    overflow-y: auto;
+    height: 400px;
+    overflow-x: hidden;
+    border-bottom: solid 3px #ff6700;
+    margin-bottom: 30px; }
+    .section02-interview .dialogue-box .irakli {
+      margin-top: 20px;
+      width: 100%; }
+      .section02-interview .dialogue-box .irakli .irakli-photo {
+        padding-right: 20px; }
+        .section02-interview .dialogue-box .irakli .irakli-photo img {
+          width: 90px;
+          padding-top: 22px; }
+      .section02-interview .dialogue-box .irakli .myname {
+        margin-bottom: 10px;
+        color: #ff6700;
+        font-size: 20px;
+        font-weight: bold; }
+      .section02-interview .dialogue-box .irakli .irakli-text {
+        word-wrap: break-word;
+        width: 600px;
+        height: auto;
+        padding: 17px;
+        font-size: 18px;
+        line-height: 23px;
+        background: #ff6700;
+        background: linear-gradient(98deg, #ff6700 0%, #ff7e26 100%); }
+    .section02-interview .dialogue-box .interviewer {
+      margin-top: 20px;
+      width: 100%; }
+      .section02-interview .dialogue-box .interviewer .interviewer-photo {
+        padding-left: 20px; }
+        .section02-interview .dialogue-box .interviewer .interviewer-photo img {
+          width: 90px; }
+      .section02-interview .dialogue-box .interviewer #int-txt {
+        width: 600px;
+        font-size: 18px;
+        height: auto;
+        padding: 17px;
+        background: #004e98;
+        background: linear-gradient(98deg, #004e98 0%, #306da6 100%); }
+  .section02-interview .qbox {
+    width: 100%; }
+    .section02-interview .qbox .question-title {
+      font-size: 24px;
+      text-align: end;
+      color: #000;
+      margin-bottom: 15px; }
+    .section02-interview .qbox .dialogue-input {
+      background: #004e98;
+      background: linear-gradient(270deg, #004e98 0%, #3a6ea5 100%);
+      border-radius: 10px; }
+      .section02-interview .qbox .dialogue-input a {
+        outline: none;
+        text-decoration: none;
+        color: #ebebeb; }
+      .section02-interview .qbox .dialogue-input .input-d-box {
+        font-size: 22px;
+        padding: 10px;
+        border-right: solid 10px #ff6700;
+        border-bottom: solid 1px #ebebeb;
+        margin-bottom: 10px;
+        text-align: end; }
+      .section02-interview .qbox .dialogue-input .input-d-box:hover {
+        width: 100%;
+        background: #ff6700;
+        border-radius: 10px; }
