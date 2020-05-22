@@ -46,7 +46,8 @@ body {
   overflow-x: hidden; }
   body header {
     z-index: 1000;
-    background: #004e98;
+    background: #3a6ea5;
+    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
     margin-bottom: 10px; }
     body header .navbar-brand {
       margin-left: 20px; }
@@ -277,83 +278,124 @@ body {
   border-radius: 15%; }
 
 .section01 {
-  margin-top: 140px; }
+  margin-top: 140px;
+  color: #ebebeb; }
   .section01 .skill-div {
-    margin: 0px 100px;
-    height: 400px;
-    width: 647px;
-    background: #004e98;
-    border-radius: 30px; }
+    height: 300px;
+    width: 350px;
+    background: #3a6ea5;
+    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
+    border-width: 40px 20px;
+    border-radius: 10px 60px;
+    transition: all .5s ease-in-out; }
     .section01 .skill-div .skill-scale {
-      margin-right: -10%; }
+      margin-right: -8%;
+      font-size: 13px; }
     .section01 .skill-div .skill-field {
-      padding: 20px 0px 12px 0px;
-      font-size: 40px; }
-    .section01 .skill-div .skill-name {
-      padding-top: 10px;
-      padding-bottom: 5px;
+      padding: 15px 0px 12px 0px;
       font-size: 25px; }
+    .section01 .skill-div .skill-name {
+      padding-top: 9px;
+      padding-bottom: 7px;
+      font-size: 17px; }
     .section01 .skill-div .skill-bar {
-      height: 30px;
+      height: 15px;
       width: 100%;
-      background: white;
+      background: #ebebeb;
       border-radius: 25px; }
       .section01 .skill-div .skill-bar .english {
         width: 80%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .german {
         width: 82%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .russian {
         width: 71%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .georgian {
-        width: 120%;
+        width: 99.5%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .html01 {
         width: 100%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .scss {
         width: 85%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .javascript {
         width: 67%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .msoffice {
         width: 88%;
         height: 100%;
-        background: #000;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
+      .section01 .skill-div .skill-bar .communication {
+        width: 92%;
+        height: 100%;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .teamwork {
+        width: 88%;
+        height: 100%;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .organized {
+        width: 85%;
+        height: 100%;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        border-radius: 25px; }
+      .section01 .skill-div .skill-bar .creative {
+        width: 120%;
+        height: 100%;
+        background: #ff6700;
+        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        border-radius: 25px; }
+  .section01 .skill-div:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.4); }
 
 .section02 {
-  border: 4px solid #3a6ea5;
+  border: 4px solid #ff6700;
   margin-top: 225px; }
   .section02 .spam-box {
     width: auto;
     height: 350px;
-    background: #ff6700; }
+    background: #3a6ea5;
+    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
+    color: #ebebeb; }
     .section02 .spam-box .spam-title {
       font-size: 40px;
       font-weight: bold; }
       .section02 .spam-box .spam-title p {
         margin-top: 17px;
         padding: 6px;
-        border: solid 4px #3a6ea5;
-        color: white; }
+        border: solid 4px #ff6700;
+        color: #ff6700; }
     .section02 .spam-box .spam-texts {
       padding-top: 100px;
       font-size: 21px;
@@ -367,9 +409,9 @@ body {
       .section02 .spam-box .spam-texts .rotated-45 {
         transform: rotate(-45deg); }
       .section02 .spam-box .spam-texts .red {
-        color: red; }
+        color: #ff6700; }
       .section02 .spam-box .spam-texts .blue {
-        color: blue; }
+        color: yellow; }
 
 .section01-cv {
   margin-top: 150px;
@@ -384,6 +426,9 @@ body {
       display: none; }
     .section01-cv .section-box .close-button {
       display: none; }
+  .section01-cv .section-box:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); }
   .section01-cv .section-box:last-child {
     margin-right: 0px; }
 
@@ -391,24 +436,29 @@ body {
   margin-top: 150px; }
   .section01-projects .line-div {
     width: 800px;
-    border: solid 3px black;
+    border: solid 3px #004e98;
     margin: 78px auto; }
   .section01-projects .project .embed-content {
     border-radius: 25px; }
     .section01-projects .project .embed-content img {
       width: 560px;
       height: 535px;
-      border-radius: 15px; }
+      border-radius: 15px;
+      transition: all 0.2s ease-in-out; }
+    .section01-projects .project .embed-content img:hover {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.05); }
     .section01-projects .project .embed-content a {
       outline: 0; }
-    .section01-projects .project .embed-content #ulala-geo {
-      display: none; }
+    .section01-projects .project .embed-content #ulala-geo:hover {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.25); }
     .section01-projects .project .embed-content .overlay-box {
       position: relative; }
       .section01-projects .project .embed-content .overlay-box .overlay {
         position: absolute;
-        left: 50%;
-        bottom: 300px;
+        left: 45%;
+        bottom: 200px;
         font-size: 60px;
         color: black;
         text-transform: uppercase; }

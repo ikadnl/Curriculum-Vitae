@@ -6,6 +6,11 @@ function removeElement(id) {
 }
 
 
+// THIS FUNCTION IS FOR TOOLTIPS
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 // THIS FUNCTIONS CHANGES THE SIZE OF CV'S DIVS 
 
 
@@ -79,10 +84,3 @@ function overlay() {
   var over = document.getElementById("overlay");
   over.style.display = "none";
 }
-
-
-
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
