@@ -22,7 +22,8 @@ function showMore(more) {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    box.style.height = "500px";
+    box.parentElement.style.width = "100%";
+    box.style.width = "100%";
     more.style.display = "none";
     close.style.display = "block";
   }
@@ -32,7 +33,7 @@ function minimize(close) {
   var box = close.parentElement.parentElement;
   var more = close.previousElementSibling.previousElementSibling;
   var info = close.previousElementSibling;
-  box.style.height = "300px";
+  box.style.width = "300px";
   close.style.display = "none";
   more.style.display = "block";
   info.style.display = "none";

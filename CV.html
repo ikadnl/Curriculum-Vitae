@@ -32,32 +32,53 @@
         </header>  
         
         <section class="section01-cv">
-            <div class="container d-flex justify-content-center">
-                <div class="cv-box d-flex">
+            <div class="container d-flex">
+                <div class="cv-box d-flex flex-column">
                     <div id="work-box" class="section-box d-flex flex-column grow grow:hover">
                         <div class="name-box">
-                            <p>Work Experience</p>
-                        </div>
-                        <div class="detail-box">
-                            <P>GEA - marketing intern</P>
-                        </div>
-                        <div class="info-box">
-                            <p>59983129 aq da aq</p>
+                            <p>სამუშაო გამოცდილება</p>
                         </div>
                         <div class="button-box">
-                            <button id="work-more" onclick="showMore(this)">Click Me</button>
-    
-                            <div id="myDIV">
-                              This is my DIV element.
-                            </div> 
-                            <button id="work-minimize" class="close-button" onclick="minimize(this)">Close</button>
+                            <button id="work-more" class="more-button" onclick="showMore(this)">Click Me</button>
+                                <div class="more-info" id="myDIV">
+                                    <div class="d-flex justify-content-around">
+                                        <div class="work-line">
+                                            <div class="company-name">
+                                                <p>საქართველოს დამსაქმებელთა ასოციაცია (GEA)</p>
+                                            </div>
+                                            <div class="job-date">
+                                                <p>12.2019 - 03.2020</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>სტაჟიორი მარკეტინგის დეპარტამენტში</p>
+                                            </div>
+                                        </div>
+                                        <div class="work-line">
+                                            <div class="company-name">
+                                                <p>ლისი ჰილსი</p>
+                                            </div>
+                                            <div class="job-date">
+                                                <p>03.2019 - 06.2020</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>მომსახურე პერსონალი</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="company-name">
+                                                <p class="ucompany">აქ შეიძლება აღმოჩნდეს<br>თქვენი კომპანიის სახელი</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <button id="work-minimize" class="close-button" onclick="minimize(this)">მაჩვენე ნაკლები</button>
                         </div>
                     </div>
 
 
                     <div id="edu-box" class="section-box d-flex flex-column groww groww:hover">
                         <div class="name-box">
-                            <p>Education</p>
+                            <p>განათლება</p>
                         </div>
                         <div class="detail-box">
                             <P>freeuni</P>
@@ -68,7 +89,7 @@
                         <div class="button-box">
                             <button id="edu-more" onclick="showMore(this)">Click Me</button>
     
-                            <div id="myDIV">
+                            <div class="more-info" id="myDIV">
                               This is my DIV element.
                             </div> 
                             <button id="edu-minimize" class="close-button" onclick="minimize(this)">Close</button>
@@ -81,15 +102,15 @@
                             <p>Certificates</p>
                         </div>
                         <div class="detail-box">
-                            <P>tashfandur</P>
+                            <P>GeoLab Front-End Development Course</P>
                         </div>
                         <div class="info-box">
-                            <p>59983129 aq da aq</p>
+                            <p></p>
                         </div>
                         <div class="button-box">
                             <button id="certificate-more" onclick="showMore(this)">Click Me</button>
     
-                            <div id="myDIV">
+                            <div class="more-info id="myDIV">
                               This is my DIV element.
                             </div> 
                             <button id="certificate-minimize" class="close-button" onclick="minimize(this)">Close</button>

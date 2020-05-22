@@ -256,26 +256,44 @@ body {
   margin-top: 150px;
   padding-bottom: 210px; }
 
-.welcomePhoto img {
-  width: 400px;
-  border: solid 5px red;
-  border-radius: 50%; }
+.welcomePhoto {
+  z-index: 999; }
+  .welcomePhoto img {
+    width: 400px;
+    border: solid 5px #ff6700;
+    border-radius: 50%; }
 
 .welcomeText {
-  width: 485px;
+  width: 510px;
   height: 300px;
-  background: white;
+  background: #3a6ea5;
+  background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
   margin-left: -40px;
   border-radius: 13%;
-  border: solid 1px black; }
+  border: solid 5px #ff6700;
+  z-index: 99; }
   .welcomeText p {
-    margin: 15px;
-    font-size: 50px; }
+    color: #ebebeb;
+    margin: 20px;
+    font-size: 45px;
+    padding-left: 30px; }
 
 .welcomeButton {
-  margin-top: 260px;
-  background-color: white;
-  border-radius: 15%; }
+  margin-top: 300px;
+  margin-left: -100px; }
+  .welcomeButton button {
+    color: white;
+    font-size: 24px;
+    padding-top: 30px; }
+  .welcomeButton .circle-button {
+    height: 150px;
+    width: 150px;
+    background-color: #ff6700;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 .section01 {
   margin-top: 140px;
@@ -417,27 +435,66 @@ body {
   margin-top: 150px;
   color: #ebebeb; }
   .section01-cv .section-box {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     background: #004e98;
-    margin-right: 50px;
-    transition: all 1000ms linear; }
+    margin-bottom: 50px;
+    transition: all 1000ms linear;
+    border-radius: 60px 20px; }
+    .section01-cv .section-box .name-box {
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 20px; }
     .section01-cv .section-box #myDIV {
       display: none; }
+      .section01-cv .section-box #myDIV .ucompany {
+        font-size: 20px;
+        font-weight: bolder; }
+      .section01-cv .section-box #myDIV .work-line {
+        border-right: #ff6700 solid 2px;
+        border-bottom: #ff6700 solid 2px; }
+        .section01-cv .section-box #myDIV .work-line .company-name {
+          padding-right: 50px;
+          padding-bottom: 15px;
+          font-weight: bolder; }
+        .section01-cv .section-box #myDIV .work-line .job-date {
+          padding-right: 50px;
+          padding-bottom: 15px;
+          color: #ff6700; }
+        .section01-cv .section-box #myDIV .work-line .info-box {
+          padding-right: 50px;
+          padding-bottom: 15px; }
+    .section01-cv .section-box .more-button {
+      margin: 0 auto;
+      height: 40px;
+      width: 80px;
+      background-color: #ff6700;
+      color: #ebebeb;
+      border-radius: 10px;
+      border: none; }
     .section01-cv .section-box .close-button {
-      display: none; }
+      display: none;
+      height: 40px;
+      width: 80px;
+      background-color: #ff6700;
+      color: #ebebeb;
+      border-radius: 10px;
+      border: none;
+      margin-left: 80%;
+      margin-bottom: 30px; }
   .section01-cv .section-box:hover {
     transition: all .2s ease-in-out;
-    transform: scale(1.1); }
+    transform: scale(1.05); }
   .section01-cv .section-box:last-child {
-    margin-right: 0px; }
+    margin-bottom: 0px; }
 
 .section01-projects {
   margin-top: 150px; }
   .section01-projects .line-div {
     width: 800px;
     border: solid 3px #004e98;
-    margin: 78px auto; }
+    margin: 100px auto; }
   .section01-projects .project .embed-content {
     border-radius: 25px; }
     .section01-projects .project .embed-content img {

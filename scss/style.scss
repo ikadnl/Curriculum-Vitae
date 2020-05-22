@@ -283,30 +283,50 @@ body{
 }
 
 .welcomePhoto {
+    z-index: 999;
     img{
         width: 400px;
-        border: solid 5px red;
+        border: solid 5px #ff6700;
         border-radius: 50%;
     }
 }
 
 .welcomeText{
-    width: 485px;
+    width: 510px;
     height: 300px;
-    background: white;
+    background: rgb(58,110,165);
+    background: linear-gradient(180deg, rgba(58,110,165,1) 0%, rgba(0,78,152,1) 62%); 
     margin-left: -40px;
     border-radius: 13%;
-    border: solid 1px black;
+    border: solid 5px #ff6700;
+    z-index: 99;
     p{
-        margin: 15px;
-        font-size: 50px;
+        color: #ebebeb;
+        margin: 20px;
+        font-size: 45px;
+        padding-left: 30px;
     }
 }
 
 .welcomeButton{
-    margin-top: 260px;
-    background-color: white;
-    border-radius: 15%;
+    margin-top: 300px;
+    margin-left: -100px;
+    
+    button {
+        color: white;
+        font-size: 24px;
+        padding-top: 30px;
+    }
+    .circle-button {
+        height: 150px;
+        width: 150px;
+        background-color: #ff6700;
+        border-radius: 50%;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -491,24 +511,70 @@ body{
     margin-top: 150px;
     color: #ebebeb;
     .section-box {
-        width: 400px;
-        height: 300px;
+        width: 300px;
+        height: 200px;
         background: #004e98;
-        margin-right: 50px;
+        margin-bottom: 50px;
         transition: all 1000ms linear;
+        border-radius: 60px 20px;
+        .name-box {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
         #myDIV{
             display: none;
+            .ucompany {
+                font-size: 20px;
+                font-weight: bolder;
+            }
+            .work-line {
+                border-right: #ff6700 solid 2px;
+                border-bottom: #ff6700 solid 2px;
+                .company-name {
+                    padding-right: 50px;
+                    padding-bottom: 15px;
+                    font-weight: bolder;
+                }
+                .job-date {
+                    padding-right: 50px;
+                    padding-bottom: 15px;
+                    color: #ff6700;
+                }
+                .info-box {
+                    padding-right: 50px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+        .more-button {
+            margin: 0 auto;
+            height: 40px;
+            width: 80px;
+            background-color: #ff6700;
+            color: #ebebeb;
+            border-radius: 10px;
+            border: none;
         }
         .close-button {
             display: none;
+            height: 40px;
+            width: 80px;
+            background-color: #ff6700;
+            color: #ebebeb;
+            border-radius: 10px;
+            border: none;
+            margin-left: 80%;
+            margin-bottom: 30px;
         }
     }
     .section-box:hover {
         transition: all .2s ease-in-out; 
-        transform: scale(1.1); 
+        transform: scale(1.05); 
     }
     .section-box:last-child {
-        margin-right: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -521,7 +587,7 @@ body{
     .line-div{
         width: 800px;
         border: solid 3px #004e98;
-        margin: 78px auto;
+        margin: 100px auto;
     }
    .project{
         .embed-content{
