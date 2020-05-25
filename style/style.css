@@ -376,13 +376,13 @@ body {
         background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .teamwork {
-        width: 88%;
+        width: 95%;
         height: 100%;
         background: #ff6700;
         background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .organized {
-        width: 85%;
+        width: 91%;
         height: 100%;
         background: #ff6700;
         background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
@@ -435,6 +435,7 @@ body {
   margin-top: 150px;
   color: #ebebeb; }
   .section01-cv .section-box {
+    position: relative;
     width: 300px;
     height: 200px;
     background: #004e98;
@@ -445,34 +446,34 @@ body {
       font-size: 20px;
       text-align: center;
       padding-bottom: 20px;
-      padding-top: 20px; }
+      padding-top: 40px; }
     .section01-cv .section-box #myDIV {
       display: none; }
       .section01-cv .section-box #myDIV .ucompany {
         font-size: 20px;
         font-weight: bolder; }
       .section01-cv .section-box #myDIV .work-line {
+        padding-right: 30px;
         border-right: #ff6700 solid 2px;
         border-bottom: #ff6700 solid 2px; }
         .section01-cv .section-box #myDIV .work-line .company-name {
-          padding-right: 50px;
           padding-bottom: 15px;
           font-weight: bolder; }
-        .section01-cv .section-box #myDIV .work-line .job-date {
-          padding-right: 50px;
-          padding-bottom: 15px;
+        .section01-cv .section-box #myDIV .work-line .info-date {
+          padding: 15px 0;
           color: #ff6700; }
         .section01-cv .section-box #myDIV .work-line .info-box {
-          padding-right: 50px;
           padding-bottom: 15px; }
     .section01-cv .section-box .more-button {
-      margin: 0 auto;
       height: 40px;
       width: 80px;
       background-color: #ff6700;
       color: #ebebeb;
       border-radius: 10px;
-      border: none; }
+      border: none;
+      position: absolute;
+      top: 50%;
+      left: 35%; }
     .section01-cv .section-box .close-button {
       display: none;
       height: 40px;
@@ -481,8 +482,9 @@ body {
       color: #ebebeb;
       border-radius: 10px;
       border: none;
-      margin-left: 80%;
-      margin-bottom: 30px; }
+      position: absolute;
+      top: 25px;
+      right: 30px; }
   .section01-cv .section-box:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.05); }

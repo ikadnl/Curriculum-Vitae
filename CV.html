@@ -43,7 +43,7 @@
                                 <div class="more-info" id="myDIV">
                                     <div class="d-flex justify-content-around">
                                         <div class="work-line">
-                                            <div class="company-name">
+                                            <div class="detail-box">
                                                 <p>საქართველოს დამსაქმებელთა ასოციაცია (GEA)</p>
                                             </div>
                                             <div class="job-date">
@@ -54,10 +54,10 @@
                                             </div>
                                         </div>
                                         <div class="work-line">
-                                            <div class="company-name">
+                                            <div class="detail-box">
                                                 <p>ლისი ჰილსი</p>
                                             </div>
-                                            <div class="job-date">
+                                            <div class="info-date">
                                                 <p>03.2019 - 06.2020</p>
                                             </div>
                                             <div class="info-box">
@@ -76,22 +76,29 @@
                     </div>
 
 
-                    <div id="edu-box" class="section-box d-flex flex-column groww groww:hover">
+                    <div id="edu-box" class="section-box d-flex flex-column">
                         <div class="name-box">
                             <p>განათლება</p>
                         </div>
-                        <div class="detail-box">
-                            <P>freeuni</P>
-                        </div>
-                        <div class="info-box">
-                            <p>59983129 aq da aq</p>
-                        </div>
                         <div class="button-box">
-                            <button id="edu-more" onclick="showMore(this)">Click Me</button>
+                            <button id="edu-more" class="more-button" onclick="showMore(this)">Click Me</button>
     
                             <div class="more-info" id="myDIV">
-                              This is my DIV element.
+                                <div class="d-flex justify-content-around">
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>თავისუფალი უნივერსიტეტი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>2016-2020</p>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>საერთაშორისო ურთიერთობების სკოლა <br> გერმანული მიმართულება</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div> 
+
                             <button id="edu-minimize" class="close-button" onclick="minimize(this)">Close</button>
                         </div>
                     </div>
@@ -99,20 +106,32 @@
 
                     <div id="certificate-box" class="section-box d-flex flex-column">
                         <div class="name-box">
-                            <p>Certificates</p>
-                        </div>
-                        <div class="detail-box">
-                            <P>GeoLab Front-End Development Course</P>
-                        </div>
-                        <div class="info-box">
-                            <p></p>
+                            <p>სერთიფიკატები</p>
                         </div>
                         <div class="button-box">
-                            <button id="certificate-more" onclick="showMore(this)">Click Me</button>
+                            <button id="certificate-more" class="more-button" onclick="showMore(this)">Click Me</button>
     
-                            <div class="more-info id="myDIV">
-                              This is my DIV element.
+                            <div class="more-info" id="myDIV">
+                                <div class="d-flex justify-content-around">
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>ჯეოლაბის Front-End Development კურსი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>11.2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>თბილისის სახელმწიფო უნივერსიტეტის<br> პრაქტიკული სამართლის კურსი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>09.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div> 
+
                             <button id="certificate-minimize" class="close-button" onclick="minimize(this)">Close</button>
                         </div>
                     </div>

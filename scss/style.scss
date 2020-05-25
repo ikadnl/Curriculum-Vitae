@@ -430,14 +430,14 @@ body{
                 border-radius: 25px;
             }
             .teamwork {
-                width: 88%;
+                width: 95%;
                 height: 100%;
                 background: rgb(255,103,0);
                 background: linear-gradient(93deg, rgba(255,103,0,1) 0%, rgba(252,142,67,1) 0%, rgba(241,102,8,1) 100%); 
                 border-radius: 25px;
             }
             .organized {
-                width: 85%;
+                width: 91%;
                 height: 100%;
                 background: rgb(255,103,0);
                 background: linear-gradient(93deg, rgba(255,103,0,1) 0%, rgba(252,142,67,1) 0%, rgba(241,102,8,1) 100%); 
@@ -511,6 +511,7 @@ body{
     margin-top: 150px;
     color: #ebebeb;
     .section-box {
+        position: relative;
         width: 300px;
         height: 200px;
         background: #004e98;
@@ -521,7 +522,7 @@ body{
             font-size: 20px;
             text-align: center;
             padding-bottom: 20px;
-            padding-top: 20px;
+            padding-top: 40px;
         }
         #myDIV{
             display: none;
@@ -530,32 +531,32 @@ body{
                 font-weight: bolder;
             }
             .work-line {
+                padding-right: 30px;
                 border-right: #ff6700 solid 2px;
                 border-bottom: #ff6700 solid 2px;
                 .company-name {
-                    padding-right: 50px;
                     padding-bottom: 15px;
                     font-weight: bolder;
                 }
-                .job-date {
-                    padding-right: 50px;
-                    padding-bottom: 15px;
+                .info-date {
+                    padding: 15px 0;
                     color: #ff6700;
                 }
                 .info-box {
-                    padding-right: 50px;
                     padding-bottom: 15px;
                 }
             }
         }
         .more-button {
-            margin: 0 auto;
             height: 40px;
             width: 80px;
             background-color: #ff6700;
             color: #ebebeb;
             border-radius: 10px;
             border: none;
+            position: absolute;
+            top: 50%;
+            left: 35%;
         }
         .close-button {
             display: none;
@@ -565,8 +566,9 @@ body{
             color: #ebebeb;
             border-radius: 10px;
             border: none;
-            margin-left: 80%;
-            margin-bottom: 30px;
+            position: absolute;
+            top: 25px;
+            right: 30px;
         }
     }
     .section-box:hover {
