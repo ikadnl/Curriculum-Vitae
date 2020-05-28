@@ -13,25 +13,27 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
-    <body onload="overlay()">
-        <div id="overlay"></div>
-        <header class="fixed-top">
+    <body>
+        <div id="overlay">
+            <div class="cssload-loader">Ikadnl</div>
+        </div>
+        <header id="header" class="fixed-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
                     <div class="navbarLogo">
                         <a class="hvr-grow" href="index.html">IKADNL</a>
                     </div>
                     <div class="navbarDiv d-flex align-items-center">
-                        <a class="navbar-brand hvr-underline-from-center text-light" href="main.html">მთავარი</a>
-                        <a class="navbar-brand hvr-underline-from-center navbar-cv text-light" href="CV.html">CV</a>
-                        <a class="navbar-brand hvr-underline-from-center text-light" href="projects.html">პროექტები</a>
-                        <a class="navbar-brand hvr-underline-from-center text-light" href="interview.html">გასაუბრება</a>
+                        <a class="navbar-brand hvr-underline-from-center" href="main.html">მთავარი</a>
+                        <a class="navbar-brand hvr-underline-from-center navbar-cv" href="CV.html">CV</a>
+                        <a class="navbar-brand hvr-underline-from-center" href="projects.html">პროექტები</a>
+                        <a class="navbar-brand hvr-underline-from-center" href="interview.html">გასაუბრება</a>
                     </div>
                 </nav>
             </div>
         </header>  
 
-        <section class="section01 d-flex justify-content-between">
+        <section class="section01 d-flex justify-content-between flex-wrap">
             <div class="container skill-div grow grow:hover">
                 <div class="skill-field d-flex justify-content-center">
                     <p>სასაუბრო ენა</p>
@@ -147,7 +149,118 @@
             </div>
         </section>
 
-        <section class="section02">
+
+        <section class="section01-cv">
+            <div class="container d-flex">
+                <div class="cv-box d-flex flex-column">
+                    <div id="work-box" class="section-box d-flex flex-column">
+                        <div class="name-box">
+                            <p>სამუშაო გამოცდილება</p>
+                        </div>
+                        <div class="button-box">
+                            <button id="work-more" class="more-button" onclick="showMore(this)">მეტი</button>
+                                <div class="more-info" id="myDIV">
+                                    <div class="d-flex justify-content-around">
+                                        <div class="work-line">
+                                            <div class="detail-box">
+                                                <p>საქართველოს დამსაქმებელთა ასოციაცია (GEA)</p>
+                                            </div>
+                                            <div class="job-date">
+                                                <p>12.2019 - 03.2020</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>სტაჟიორი მარკეტინგის დეპარტამენტში</p>
+                                            </div>
+                                        </div>
+                                        <div class="work-line">
+                                            <div class="detail-box">
+                                                <p>ლისი ჰილსი</p>
+                                            </div>
+                                            <div class="info-date">
+                                                <p>03.2019 - 06.2020</p>
+                                            </div>
+                                            <div class="info-box">
+                                                <p>მომსახურე პერსონალი</p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="company-name">
+                                                <p class="ucompany">აქ შეიძლება აღმოჩნდეს<br>თქვენი კომპანიის სახელი</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <button id="work-minimize" class="close-button" onclick="minimize(this)">დახურვა</button>
+                        </div>
+                    </div>
+
+
+                    <div id="edu-box" class="section-box d-flex flex-column align-self-end">
+                        <div class="name-box">
+                            <p>განათლება</p>
+                        </div>
+                        <div class="button-box">
+                            <button id="edu-more" class="more-button" onclick="showMore(this)">მეტი</button>
+    
+                            <div class="more-info" id="myDIV">
+                                <div class="d-flex justify-content-around">
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>თავისუფალი უნივერსიტეტი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>2016-2020</p>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>საერთაშორისო ურთიერთობების სკოლა <br> გერმანული მიმართულება</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <button id="edu-minimize" class="close-button" onclick="minimize(this)">დახურვა</button>
+                        </div>
+                    </div>
+
+
+                    <div id="certificate-box" class="section-box d-flex flex-column">
+                        <div class="name-box">
+                            <p>სერთიფიკატები</p>
+                        </div>
+                        <div class="button-box">
+                            <button id="certificate-more" class="more-button" onclick="showMore(this)">მეტი</button>
+    
+                            <div class="more-info" id="myDIV">
+                                <div class="d-flex justify-content-around">
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>ჯეოლაბის Front-End Development კურსი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>11.2018</p>
+                                        </div>
+                                    </div>
+                                    <div class="work-line">
+                                        <div class="detail-box">
+                                            <P>თბილისის სახელმწიფო უნივერსიტეტის<br> პრაქტიკული სამართლის კურსი</P>
+                                        </div>
+                                        <div class="info-date">
+                                            <p>09.2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <button id="certificate-minimize" class="close-button" onclick="minimize(this)">დახურვა</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <section class="section-spam">
             <div class="">
                 <div class="spam-box">
                     <div class="spam-title d-flex justify-content-center">
@@ -239,7 +352,6 @@
                 </div>
             </div>
         </section>
-
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>      

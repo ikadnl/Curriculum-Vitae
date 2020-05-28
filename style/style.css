@@ -41,18 +41,23 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background: white;
-  background: linear-gradient(180deg, white 0%, #c2c1c1 100%);
+  background: #f2f1f4;
   overflow-x: hidden; }
+  body p {
+    color: #f1f2f4; }
   body header {
     z-index: 1000;
-    background: #3a6ea5;
-    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
-    margin-bottom: 10px; }
+    background: transparent;
+    margin-bottom: 10px;
+    background: #393cb0; }
     body header .navbar-brand {
-      margin-left: 20px; }
+      margin-left: 20px;
+      color: #f1f2f4 !important;
+      padding-bottom: 12px; }
+    body header .navbar-brand:hover {
+      text-decoration: none; }
     body header a {
-      color: #ebebeb;
+      color: #f1f2f4;
       font-family: 'Adamina', serif;
       outline: 0; }
     body header .navbarLogo a {
@@ -260,20 +265,19 @@ body {
   z-index: 999; }
   .welcomePhoto img {
     width: 400px;
-    border: solid 5px #ff6700;
+    border: solid 5px #393cb0;
     border-radius: 50%; }
 
 .welcomeText {
   width: 510px;
   height: 300px;
-  background: #3a6ea5;
-  background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
   margin-left: -40px;
   border-radius: 13%;
-  border: solid 5px #ff6700;
+  background: #393cb0;
+  border: solid 5px #b7b5cc;
   z-index: 99; }
   .welcomeText p {
-    color: #ebebeb;
+    color: #f1f2f4;
     margin: 20px;
     font-size: 45px;
     padding-left: 30px; }
@@ -282,13 +286,14 @@ body {
   margin-top: 300px;
   margin-left: -100px; }
   .welcomeButton button {
-    color: white;
+    color: #f2f1f4;
     font-size: 24px;
     padding-top: 30px; }
   .welcomeButton .circle-button {
     height: 150px;
     width: 150px;
-    background-color: #ff6700;
+    background-color: #393cb0;
+    border: solid 3px #b7b5cc;
     border-radius: 50%;
     display: inline-block;
     display: flex;
@@ -397,38 +402,38 @@ body {
     transition: all .5s ease-in-out;
     transform: scale(1.4); }
 
-.section02 {
+.section-spam {
   border: 4px solid #ff6700;
   margin-top: 225px; }
-  .section02 .spam-box {
+  .section-spam .spam-box {
     width: auto;
     height: 350px;
     background: #3a6ea5;
     background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
     color: #ebebeb; }
-    .section02 .spam-box .spam-title {
+    .section-spam .spam-box .spam-title {
       font-size: 40px;
       font-weight: bold; }
-      .section02 .spam-box .spam-title p {
+      .section-spam .spam-box .spam-title p {
         margin-top: 17px;
         padding: 6px;
         border: solid 4px #ff6700;
         color: #ff6700; }
-    .section02 .spam-box .spam-texts {
+    .section-spam .spam-box .spam-texts {
       padding-top: 100px;
       font-size: 21px;
       word-break: break-all; }
-      .section02 .spam-box .spam-texts .rotated45 {
+      .section-spam .spam-box .spam-texts .rotated45 {
         transform: rotate(45deg); }
-      .section02 .spam-box .spam-texts .rotated60 {
+      .section-spam .spam-box .spam-texts .rotated60 {
         transform: rotate(60deg); }
-      .section02 .spam-box .spam-texts .rotated-30 {
+      .section-spam .spam-box .spam-texts .rotated-30 {
         transform: rotate(-30deg); }
-      .section02 .spam-box .spam-texts .rotated-45 {
+      .section-spam .spam-box .spam-texts .rotated-45 {
         transform: rotate(-45deg); }
-      .section02 .spam-box .spam-texts .red {
+      .section-spam .spam-box .spam-texts .red {
         color: #ff6700; }
-      .section02 .spam-box .spam-texts .blue {
+      .section-spam .spam-box .spam-texts .blue {
         color: yellow; }
 
 .section01-cv {
@@ -493,16 +498,15 @@ body {
 
 .section01-projects {
   margin-top: 150px; }
-  .section01-projects .line-div {
-    width: 800px;
-    border: solid 3px #004e98;
-    margin: 100px auto; }
-  .section01-projects .project .embed-content {
-    border-radius: 25px; }
+  .section01-projects p {
+    color: black; }
+  .section01-projects .project {
+    margin-bottom: 150px;
+    background: #393cb0;
+    border-radius: 0 0 40px 0; }
     .section01-projects .project .embed-content img {
-      width: 560px;
-      height: 535px;
-      border-radius: 15px;
+      width: 320px;
+      height: 250px;
       transition: all 0.2s ease-in-out; }
     .section01-projects .project .embed-content img:hover {
       transition: all 0.2s ease-in-out;
@@ -512,22 +516,18 @@ body {
     .section01-projects .project .embed-content #ulala-geo:hover {
       transition: all 0.2s ease-in-out;
       transform: scale(1.25); }
-    .section01-projects .project .embed-content .overlay-box {
-      position: relative; }
-      .section01-projects .project .embed-content .overlay-box .overlay {
-        position: absolute;
-        left: 45%;
-        bottom: 200px;
-        font-size: 60px;
-        color: black;
-        text-transform: uppercase; }
-  .section01-projects .project .embed-name {
-    text-align: center;
-    padding-bottom: 75px;
-    font-size: 36px; }
-  .section01-projects .project .embed-info {
-    line-height: 25px;
-    padding-left: 50px; }
+    .section01-projects .project .embed-name {
+      text-align: center;
+      font-size: 26px;
+      margin-top: -10px;
+      width: 320px;
+      padding: 15px 0;
+      background: #1616db;
+      border-radius: 0 0 20px 20px; }
+    .section01-projects .project .embed-info {
+      width: 320px;
+      text-align: center;
+      padding: 30px 15px; }
 
 .section01-interview {
   margin-top: 100px; }

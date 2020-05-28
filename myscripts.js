@@ -85,3 +85,14 @@ function overlay() {
   var over = document.getElementById("overlay");
   over.style.display = "none";
 }
+
+function test() {
+  showMore(document.getElementById("edu-more"));
+  console.log("ebijo");
+}
+
+window.onload=function(){
+  this.overlay();
+  this.showMore(document.getElementById("edu-more"));
+  this.minimize(document.getElementById("edu-minimize"));
+  }
