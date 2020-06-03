@@ -41,7 +41,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background: #f2f1f4;
+  background: white;
   overflow-x: hidden; }
   body p {
     color: #f1f2f4; }
@@ -184,7 +184,7 @@ body {
   body .footer-section {
     width: 100%;
     height: 200px;
-    background: #004e98;
+    background: #393cb0;
     padding: 50px;
     margin: 0 auto;
     margin-top: 150px; }
@@ -221,10 +221,10 @@ body {
           position: relative;
           font-family: sans-serif;
           text-transform: uppercase;
-          font-size: 20px;
+          font-size: 14px;
           letter-spacing: 4px;
           overflow: hidden;
-          background: linear-gradient(90deg, orange, #004e98, orange);
+          background: linear-gradient(90deg, orange, WHITE);
           background-repeat: no-repeat;
           background-size: 80%;
           animation: animate 3s linear infinite;
@@ -260,57 +260,59 @@ body {
 .welcomeDiv {
   margin-top: 150px;
   padding-bottom: 210px; }
-
-.welcomePhoto {
-  z-index: 999; }
-  .welcomePhoto img {
-    width: 400px;
-    border: solid 5px #393cb0;
+  .welcomeDiv .imgbo {
+    z-index: 999;
+    border: 4px solid #b7b5cc;
     border-radius: 50%; }
-
-.welcomeText {
-  width: 510px;
-  height: 300px;
-  margin-left: -40px;
-  border-radius: 13%;
-  background: #393cb0;
-  border: solid 5px #b7b5cc;
-  z-index: 99; }
-  .welcomeText p {
-    color: #f1f2f4;
-    margin: 20px;
-    font-size: 45px;
-    padding-left: 30px; }
-
-.welcomeButton {
-  margin-top: 300px;
-  margin-left: -100px; }
-  .welcomeButton button {
-    color: #f2f1f4;
-    font-size: 24px;
-    padding-top: 30px; }
-  .welcomeButton .circle-button {
-    height: 150px;
-    width: 150px;
-    background-color: #393cb0;
-    border: solid 3px #b7b5cc;
-    border-radius: 50%;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    .welcomeDiv .imgbo .welcomePhoto img {
+      width: 400px;
+      border: solid 4px #393cb0;
+      border-radius: 50%;
+      margin-bottom: -3px; }
+  .welcomeDiv .welcomeText {
+    width: 510px;
+    height: 300px;
+    margin-left: -40px;
+    border-radius: 13%;
+    background: #393cb0;
+    border: solid 4px #b7b5cc;
+    z-index: 99; }
+    .welcomeDiv .welcomeText p {
+      color: #f1f2f4;
+      margin: 20px;
+      font-size: 45px;
+      padding-left: 30px; }
+  .welcomeDiv .welcomeButton {
+    margin-top: 300px;
+    margin-left: -100px; }
+    .welcomeDiv .welcomeButton button {
+      color: #f2f1f4;
+      font-size: 24px;
+      padding-top: 30px; }
+    .welcomeDiv .welcomeButton .circle-button {
+      height: 150px;
+      width: 150px;
+      background-color: #393cb0;
+      border: solid 3px #b7b5cc;
+      border-radius: 50%;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
 
 .section01 {
   margin-top: 140px;
-  color: #ebebeb; }
+  color: #f2f1f4; }
   .section01 .skill-div {
     height: 300px;
     width: 350px;
-    background: #3a6ea5;
-    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
+    background: #393cb0;
     border-width: 40px 20px;
     border-radius: 10px 60px;
-    transition: all .5s ease-in-out; }
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 39px 52px 104px -15px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 39px 52px 104px -15px rgba(0, 0, 0, 0.29);
+    box-shadow: 39px 52px 104px -15px rgba(0, 0, 0, 0.29); }
     .section01 .skill-div .skill-scale {
       margin-right: -8%;
       font-size: 13px; }
@@ -324,92 +326,79 @@ body {
     .section01 .skill-div .skill-bar {
       height: 15px;
       width: 100%;
-      background: #ebebeb;
+      background: #f2f1f4;
       border-radius: 25px; }
       .section01 .skill-div .skill-bar .english {
         width: 80%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .german {
         width: 82%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .russian {
         width: 71%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .georgian {
         width: 99.5%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .html01 {
         width: 100%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .scss {
         width: 85%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .javascript {
         width: 67%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .msoffice {
         width: 88%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .communication {
         width: 92%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .teamwork {
         width: 95%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .organized {
         width: 91%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .creative {
         width: 120%;
         height: 100%;
-        background: #ff6700;
-        background: linear-gradient(93deg, #ff6700 0%, #fc8e43 0%, #f16608 100%);
+        background: #b0ad39;
         border-radius: 25px; }
   .section01 .skill-div:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.4); }
 
 .section-spam {
-  border: 4px solid #ff6700;
+  border: 4px solid #b7b5cc;
   margin-top: 225px; }
   .section-spam .spam-box {
     width: auto;
     height: 350px;
-    background: #3a6ea5;
-    background: linear-gradient(180deg, #3a6ea5 0%, #004e98 62%);
+    background: #393cb0;
     color: #ebebeb; }
     .section-spam .spam-box .spam-title {
       font-size: 40px;
@@ -417,8 +406,8 @@ body {
       .section-spam .spam-box .spam-title p {
         margin-top: 17px;
         padding: 6px;
-        border: solid 4px #ff6700;
-        color: #ff6700; }
+        border: solid 4px #b7b5cc;
+        color: #f1f2f4; }
     .section-spam .spam-box .spam-texts {
       padding-top: 100px;
       font-size: 21px;
@@ -438,12 +427,20 @@ body {
 
 .section01-cv {
   margin-top: 150px;
-  color: #ebebeb; }
+  color: #f1f2f4; }
+  .section01-cv .shd-left {
+    -webkit-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19); }
+  .section01-cv .shd-right {
+    -webkit-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19); }
   .section01-cv .section-box {
     position: relative;
     width: 300px;
     height: 200px;
-    background: #004e98;
+    background: #393cb0;
     margin-bottom: 50px;
     transition: all 1000ms linear;
     border-radius: 60px 20px; }
@@ -459,21 +456,20 @@ body {
         font-weight: bolder; }
       .section01-cv .section-box #myDIV .work-line {
         padding-right: 30px;
-        border-right: #ff6700 solid 2px;
-        border-bottom: #ff6700 solid 2px; }
+        border-right: #b0ad39 solid 3px;
+        border-bottom: #b0ad39 solid 3px; }
         .section01-cv .section-box #myDIV .work-line .company-name {
           padding-bottom: 15px;
           font-weight: bolder; }
         .section01-cv .section-box #myDIV .work-line .info-date {
-          padding: 15px 0;
-          color: #ff6700; }
+          padding: 15px 0; }
         .section01-cv .section-box #myDIV .work-line .info-box {
           padding-bottom: 15px; }
     .section01-cv .section-box .more-button {
       height: 40px;
       width: 80px;
-      background-color: #ff6700;
-      color: #ebebeb;
+      background-color: #b0ad39;
+      color: #f2f1f4;
       border-radius: 10px;
       border: none;
       position: absolute;
@@ -483,8 +479,8 @@ body {
       display: none;
       height: 40px;
       width: 80px;
-      background-color: #ff6700;
-      color: #ebebeb;
+      background-color: #b0ad39;
+      color: #f2f1f4;
       border-radius: 10px;
       border: none;
       position: absolute;
@@ -500,13 +496,28 @@ body {
   margin-top: 150px; }
   .section01-projects p {
     color: black; }
+  .section01-projects .projects-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 75px; }
+    .section01-projects .projects-text .pr-text {
+      font-size: 44px; }
+    .section01-projects .projects-text .pr-info {
+      font-size: 20px;
+      margin-top: 30px;
+      color: #afacae; }
   .section01-projects .project {
+    width: 320px;
     margin-bottom: 150px;
-    background: #393cb0;
-    border-radius: 0 0 40px 0; }
+    background: white;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21);
+    -moz-box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21);
+    box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21); }
     .section01-projects .project .embed-content img {
-      width: 320px;
-      height: 250px;
+      padding: 10px;
+      width: 130px;
       transition: all 0.2s ease-in-out; }
     .section01-projects .project .embed-content img:hover {
       transition: all 0.2s ease-in-out;
@@ -519,15 +530,37 @@ body {
     .section01-projects .project .embed-name {
       text-align: center;
       font-size: 26px;
-      margin-top: -10px;
-      width: 320px;
-      padding: 15px 0;
-      background: #1616db;
-      border-radius: 0 0 20px 20px; }
+      padding: 10px 0;
+      background: #393cb0; }
+      .section01-projects .project .embed-name p {
+        color: white; }
     .section01-projects .project .embed-info {
-      width: 320px;
       text-align: center;
       padding: 30px 15px; }
+    .section01-projects .project .embed-button {
+      text-align: end; }
+      .section01-projects .project .embed-button a {
+        outline: none;
+        outline: 0;
+        text-decoration: none;
+        color: #393cb0;
+        font-size: 20px;
+        padding: 0 20px 20px 0;
+        font-weight: lighter; }
+  .section01-projects .project-a p {
+    color: #f2f1f4; }
+  .section01-projects .project-a .embed-content-a {
+    width: 100%; }
+  .section01-projects .project-a .embed-text-a {
+    margin-left: -5px;
+    margin-bottom: 5px;
+    background: #393cb0;
+    padding-bottom: -5px; }
+    .section01-projects .project-a .embed-text-a .embed-name-a {
+      padding: 40px;
+      font-size: 30px; }
+    .section01-projects .project-a .embed-text-a .embed-info-a {
+      padding: 0 20px 20px 40px; }
 
 .section01-interview {
   margin-top: 100px; }
