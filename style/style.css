@@ -43,8 +43,6 @@ html {
 body {
   background: white;
   overflow-x: hidden; }
-  body p {
-    color: #f1f2f4; }
   body header {
     z-index: 1000;
     background: transparent;
@@ -52,12 +50,12 @@ body {
     background: #393cb0; }
     body header .navbar-brand {
       margin-left: 20px;
-      color: #f1f2f4 !important;
+      color: white !important;
       padding-bottom: 12px; }
     body header .navbar-brand:hover {
       text-decoration: none; }
     body header a {
-      color: #f1f2f4;
+      color: white;
       font-family: 'Adamina', serif;
       outline: 0; }
     body header .navbarLogo a {
@@ -262,11 +260,11 @@ body {
   padding-bottom: 210px; }
   .welcomeDiv .imgbo {
     z-index: 999;
-    border: 4px solid #b7b5cc;
+    border: 8px solid #47d6cf;
     border-radius: 50%; }
     .welcomeDiv .imgbo .welcomePhoto img {
       width: 400px;
-      border: solid 4px #393cb0;
+      border: solid 5px #393cb0;
       border-radius: 50%;
       margin-bottom: -3px; }
   .welcomeDiv .welcomeText {
@@ -301,6 +299,7 @@ body {
       align-items: center; }
 
 .section01 {
+  scroll-margin-top: 65px;
   margin-top: 140px;
   color: #f2f1f4; }
   .section01 .skill-div {
@@ -331,62 +330,62 @@ body {
       .section01 .skill-div .skill-bar .english {
         width: 80%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .german {
         width: 82%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .russian {
         width: 71%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .georgian {
         width: 99.5%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .html01 {
         width: 100%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .scss {
         width: 85%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .javascript {
         width: 67%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .msoffice {
         width: 88%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .communication {
         width: 92%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .teamwork {
         width: 95%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .organized {
         width: 91%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
       .section01 .skill-div .skill-bar .creative {
         width: 120%;
         height: 100%;
-        background: #b0ad39;
+        background: #afacae;
         border-radius: 25px; }
   .section01 .skill-div:hover {
     transition: all .5s ease-in-out;
@@ -425,74 +424,8 @@ body {
       .section-spam .spam-box .spam-texts .blue {
         color: yellow; }
 
-.section01-cv {
-  margin-top: 150px;
-  color: #f1f2f4; }
-  .section01-cv .shd-left {
-    -webkit-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
-    box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19); }
-  .section01-cv .shd-right {
-    -webkit-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
-    box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19); }
-  .section01-cv .section-box {
-    position: relative;
-    width: 300px;
-    height: 200px;
-    background: #393cb0;
-    margin-bottom: 50px;
-    transition: all 1000ms linear;
-    border-radius: 60px 20px; }
-    .section01-cv .section-box .name-box {
-      font-size: 20px;
-      text-align: center;
-      padding-bottom: 20px;
-      padding-top: 40px; }
-    .section01-cv .section-box #myDIV {
-      display: none; }
-      .section01-cv .section-box #myDIV .ucompany {
-        font-size: 20px;
-        font-weight: bolder; }
-      .section01-cv .section-box #myDIV .work-line {
-        padding-right: 30px;
-        border-right: #b0ad39 solid 3px;
-        border-bottom: #b0ad39 solid 3px; }
-        .section01-cv .section-box #myDIV .work-line .company-name {
-          padding-bottom: 15px;
-          font-weight: bolder; }
-        .section01-cv .section-box #myDIV .work-line .info-date {
-          padding: 15px 0; }
-        .section01-cv .section-box #myDIV .work-line .info-box {
-          padding-bottom: 15px; }
-    .section01-cv .section-box .more-button {
-      height: 40px;
-      width: 80px;
-      background-color: #b0ad39;
-      color: #f2f1f4;
-      border-radius: 10px;
-      border: none;
-      position: absolute;
-      top: 50%;
-      left: 35%; }
-    .section01-cv .section-box .close-button {
-      display: none;
-      height: 40px;
-      width: 80px;
-      background-color: #b0ad39;
-      color: #f2f1f4;
-      border-radius: 10px;
-      border: none;
-      position: absolute;
-      top: 25px;
-      right: 30px; }
-  .section01-cv .section-box:hover {
-    transition: all .2s ease-in-out;
-    transform: scale(1.05); }
-  .section01-cv .section-box:last-child {
-    margin-bottom: 0px; }
-
 .section01-projects {
+  scroll-margin-top: 65px;
   margin-top: 150px; }
   .section01-projects p {
     color: black; }
@@ -562,6 +495,74 @@ body {
     .section01-projects .project-a .embed-text-a .embed-info-a {
       padding: 0 20px 20px 40px; }
 
+.section01-cv {
+  scroll-margin-top: 65px;
+  margin-top: 150px;
+  color: #f1f2f4; }
+  .section01-cv .shd-left {
+    -webkit-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    box-shadow: 91px 58px 99px -28px rgba(0, 0, 0, 0.19); }
+  .section01-cv .shd-right {
+    -webkit-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19);
+    box-shadow: -92px 58px 99px -28px rgba(0, 0, 0, 0.19); }
+  .section01-cv .section-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #393cb0;
+    margin-bottom: 50px;
+    transition: all 1000ms linear;
+    border-radius: 60px 20px; }
+    .section01-cv .section-box .name-box {
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 40px; }
+    .section01-cv .section-box #myDIV {
+      display: none; }
+      .section01-cv .section-box #myDIV .ucompany {
+        font-size: 20px;
+        font-weight: bolder; }
+      .section01-cv .section-box #myDIV .work-line {
+        padding-right: 30px;
+        border-right: #47d6cf solid 3px;
+        border-bottom: #47d6cf solid 3px; }
+        .section01-cv .section-box #myDIV .work-line .company-name {
+          padding-bottom: 15px;
+          font-weight: bolder; }
+        .section01-cv .section-box #myDIV .work-line .info-date {
+          padding: 15px 0; }
+        .section01-cv .section-box #myDIV .work-line .info-box {
+          padding-bottom: 15px; }
+    .section01-cv .section-box .more-button {
+      height: 40px;
+      width: 80px;
+      background-color: #47d6cf;
+      color: #f2f1f4;
+      border-radius: 10px;
+      border: none;
+      position: absolute;
+      top: 50%;
+      left: 35%; }
+    .section01-cv .section-box .close-button {
+      display: none;
+      height: 40px;
+      width: 80px;
+      background-color: #47d6cf;
+      color: #f2f1f4;
+      border-radius: 10px;
+      border: none;
+      position: absolute;
+      top: 25px;
+      right: 30px; }
+  .section01-cv .section-box:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05); }
+  .section01-cv .section-box:last-child {
+    margin-bottom: 0px; }
+
 .section01-interview {
   margin-top: 100px; }
   .section01-interview .title-box {
@@ -571,6 +572,8 @@ body {
       text-align: center;
       margin-bottom: 40px;
       font-size: 40px; }
+      .section01-interview .title-box .interview-title p {
+        color: black; }
 
 .section02-interview {
   margin-top: 30px; }
@@ -578,7 +581,7 @@ body {
     overflow-y: auto;
     height: 400px;
     overflow-x: hidden;
-    border-bottom: solid 3px #ff6700;
+    border-bottom: solid 3px #393cb0;
     margin-bottom: 30px; }
     .section02-interview .dialogue-box .irakli {
       margin-top: 20px;
@@ -590,18 +593,17 @@ body {
           padding-top: 22px; }
       .section02-interview .dialogue-box .irakli .myname {
         margin-bottom: 10px;
-        color: #ff6700;
-        font-size: 20px;
-        font-weight: bold; }
+        font-size: 20px; }
+        .section02-interview .dialogue-box .irakli .myname p {
+          color: black; }
       .section02-interview .dialogue-box .irakli .irakli-text {
         word-wrap: break-word;
         width: 600px;
         height: auto;
         padding: 17px;
         font-size: 18px;
-        line-height: 23px;
-        background: #ff6700;
-        background: linear-gradient(98deg, #ff6700 0%, #ff7e26 100%); }
+        line-height: 25px;
+        background: #393cb0; }
     .section02-interview .dialogue-box .interviewer {
       margin-top: 20px;
       width: 100%; }
@@ -612,20 +614,22 @@ body {
       .section02-interview .dialogue-box .interviewer #int-txt {
         width: 600px;
         font-size: 18px;
+        line-height: 25px;
         height: auto;
         padding: 17px;
-        background: #004e98;
-        background: linear-gradient(98deg, #004e98 0%, #306da6 100%); }
+        background: #47d6cf; }
+        .section02-interview .dialogue-box .interviewer #int-txt p {
+          color: white; }
   .section02-interview .qbox {
     width: 100%; }
     .section02-interview .qbox .question-title {
       font-size: 24px;
       text-align: end;
-      color: #000;
       margin-bottom: 15px; }
+      .section02-interview .qbox .question-title p {
+        color: black; }
     .section02-interview .qbox .dialogue-input {
-      background: #004e98;
-      background: linear-gradient(270deg, #004e98 0%, #3a6ea5 100%);
+      background: #393cb0;
       border-radius: 10px; }
       .section02-interview .qbox .dialogue-input a {
         outline: none;
@@ -634,11 +638,11 @@ body {
       .section02-interview .qbox .dialogue-input .input-d-box {
         font-size: 22px;
         padding: 10px;
-        border-right: solid 10px #ff6700;
-        border-bottom: solid 1px #ebebeb;
+        border-right: solid 10px #47d6cf;
+        border-bottom: solid 3px #47d6cf;
         margin-bottom: 10px;
         text-align: end; }
       .section02-interview .qbox .dialogue-input .input-d-box:hover {
         width: 100%;
-        background: #ff6700;
+        background: #47d6cf;
         border-radius: 10px; }

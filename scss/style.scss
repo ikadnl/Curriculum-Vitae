@@ -7,10 +7,7 @@ html {
 
 body{ 
     background: white;
-    overflow-x: hidden;  
-    p {
-        color: #f1f2f4;
-    }
+    overflow-x: hidden;
     header{
         z-index: 1000;
         background: transparent;
@@ -18,14 +15,14 @@ body{
         background: #393cb0;
         .navbar-brand{
             margin-left: 20px;
-            color: #f1f2f4 !important;
+            color: white !important;
             padding-bottom: 12px;
         }
         .navbar-brand:hover {
             text-decoration: none;
         }
         a{
-            color: #f1f2f4;
+            color: white;
             font-family: 'Adamina', serif;
             outline: 0;
         }
@@ -289,12 +286,12 @@ body{
     padding-bottom: 210px;
     .imgbo {
         z-index: 999;
-        border: 4px solid #b7b5cc;
+        border: 8px solid #47d6cf;
         border-radius: 50%;
         .welcomePhoto {
             img{
                 width: 400px;
-                border: solid 4px #393cb0;
+                border: solid 5px #393cb0;
                 border-radius: 50%;
                 margin-bottom: -3px;
             }
@@ -339,16 +336,12 @@ body{
 }
 
 
-
-
-
-
-
 // Here starts MAIN PAGE
 
 
 
 .section01{
+    scroll-margin-top: 65px;
     margin-top: 140px;
     color: #f2f1f4;
     .skill-div{
@@ -359,8 +352,8 @@ body{
         border-radius: 10px 60px;
         transition: all .5s ease-in-out; 
         -webkit-box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
--moz-box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
-box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
+        -moz-box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
+        box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
         .skill-scale{
             margin-right: -8%;
             font-size: 13px;
@@ -382,73 +375,73 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
             .english{
                 width: 80%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .german{
                 width: 82%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .russian{
                 width: 71%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .georgian{
                 width: 99.5%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .html01 {
                 width: 100%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .scss{
                 width: 85%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .javascript{
                 width: 67%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .msoffice {
                 width: 88%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .communication {
                 width: 92%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .teamwork {
                 width: 95%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .organized {
                 width: 91%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
             .creative {
                 width: 120%;
                 height: 100%;
-                background: #b0ad39;
+                background: #afacae;
                 border-radius: 25px;
             }
         }
@@ -504,96 +497,10 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
     }
 }
 
-
-// Here starts CV PAGE
-
-.section01-cv {
-    margin-top: 150px;
-    color: #f1f2f4;
-    .shd-left {
-        -webkit-box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
-        -moz-box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
-        box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
-    }
-    .shd-right {
-        -webkit-box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
-        -moz-box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
-        box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
-    }
-    .section-box {
-        position: relative;
-        width: 300px;
-        height: 200px;
-        background: #393cb0;
-        margin-bottom: 50px;
-        transition: all 1000ms linear;
-        border-radius: 60px 20px;
-        .name-box {
-            font-size: 20px;
-            text-align: center;
-            padding-bottom: 20px;
-            padding-top: 40px;
-        }
-        #myDIV{
-            display: none;
-            .ucompany {
-                font-size: 20px;
-                font-weight: bolder;
-            }
-            .work-line {
-                padding-right: 30px;
-                border-right: #b0ad39 solid 3px;
-                border-bottom: #b0ad39 solid 3px;
-                .company-name {
-                    padding-bottom: 15px;
-                    font-weight: bolder;
-                }
-                .info-date {
-                    padding: 15px 0;
-                }
-                .info-box {
-                    padding-bottom: 15px;
-                }
-            }
-        }
-        .more-button {
-            height: 40px;
-            width: 80px;
-            background-color: #b0ad39;
-            color: #f2f1f4;
-            border-radius: 10px;
-            border: none;
-            position: absolute;
-            top: 50%;
-            left: 35%;
-        }
-        .close-button {
-            display: none;
-            height: 40px;
-            width: 80px;
-            background-color: #b0ad39;
-            color: #f2f1f4;
-            border-radius: 10px;
-            border: none;
-            position: absolute;
-            top: 25px;
-            right: 30px;
-        }
-    }
-    .section-box:hover {
-        transition: all .2s ease-in-out; 
-        transform: scale(1.05); 
-    }
-    .section-box:last-child {
-        margin-bottom: 0px;
-    }
-}
-
-
-
 // Here starts PROJECTS PAGE
 
 .section01-projects{
+    scroll-margin-top: 65px;
     margin-top: 150px;
     p {
         color: black;
@@ -619,7 +526,8 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
        border-radius: 30px;
        -webkit-box-shadow: 43px 21px 84px 11px rgba(175,172,174,0.21);
         -moz-box-shadow: 43px 21px 84px 11px rgba(175,172,174,0.21);
-        box-shadow: 43px 21px 84px 11px rgba(175,172,174,0.21);.embed-content{
+        box-shadow: 43px 21px 84px 11px rgba(175,172,174,0.21);
+        .embed-content{
             img{
                 padding: 10px;
                 width: 130px;
@@ -687,6 +595,92 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
 }
 
 
+// Here starts CV PAGE
+
+.section01-cv {
+    scroll-margin-top: 65px;
+    margin-top: 150px;
+    color: #f1f2f4;
+    .shd-left {
+        -webkit-box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
+        -moz-box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
+        box-shadow: 91px 58px 99px -28px rgba(0,0,0,0.19);
+    }
+    .shd-right {
+        -webkit-box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
+        -moz-box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
+        box-shadow: -92px 58px 99px -28px rgba(0,0,0,0.19);
+    }
+    .section-box {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background: #393cb0;
+        margin-bottom: 50px;
+        transition: all 1000ms linear;
+        border-radius: 60px 20px;
+        .name-box {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 40px;
+        }
+        #myDIV{
+            display: none;
+            .ucompany {
+                font-size: 20px;
+                font-weight: bolder;
+            }
+            .work-line {
+                padding-right: 30px;
+                border-right: #47d6cf solid 3px;
+                border-bottom: #47d6cf solid 3px;
+                .company-name {
+                    padding-bottom: 15px;
+                    font-weight: bolder;
+                }
+                .info-date {
+                    padding: 15px 0;
+                }
+                .info-box {
+                    padding-bottom: 15px;
+                }
+            }
+        }
+        .more-button {
+            height: 40px;
+            width: 80px;
+            background-color: #47d6cf;
+            color: #f2f1f4;
+            border-radius: 10px;
+            border: none;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+        }
+        .close-button {
+            display: none;
+            height: 40px;
+            width: 80px;
+            background-color: #47d6cf;
+            color: #f2f1f4;
+            border-radius: 10px;
+            border: none;
+            position: absolute;
+            top: 25px;
+            right: 30px;
+        }
+    }
+    .section-box:hover {
+        transition: all .2s ease-in-out; 
+        transform: scale(1.05); 
+    }
+    .section-box:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+
 // Here starts INTERVIEW PAGE
 
 
@@ -699,6 +693,9 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
             text-align: center;
             margin-bottom: 40px;
             font-size: 40px;
+            p{
+                color: black;
+            }
         }
     }
 }
@@ -709,7 +706,7 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
         overflow-y: auto;
         height: 400px;
         overflow-x: hidden;
-        border-bottom: solid 3px #ff6700;
+        border-bottom: solid 3px #393cb0;
         margin-bottom: 30px;
         .irakli {
             margin-top: 20px;
@@ -723,9 +720,10 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
             }
             .myname {
                 margin-bottom: 10px;
-                color: #ff6700;
                 font-size: 20px;
-                font-weight: bold;
+                p{
+                    color: black;
+                }
             }
             .irakli-text {
                 word-wrap:break-word;
@@ -733,9 +731,8 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
                 height: auto;
                 padding: 17px;
                 font-size: 18px;
-                line-height: 23px;  
-                background: rgb(255,103,0);
-                background: linear-gradient(98deg, rgba(255,103,0,1) 0%, rgba(255,126,38,1) 100%); 
+                line-height: 25px;  
+                background: #393cb0;
             }
         }
         .interviewer {
@@ -750,10 +747,13 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
             #int-txt{
                 width: 600px;
                 font-size: 18px;
+                line-height: 25px;
                 height: auto;
                 padding: 17px;
-                background: rgb(0,78,152);
-                background: linear-gradient(98deg, rgba(0,78,152,1) 0%, rgba(48,109,166,1) 100%); 
+                background: #47d6cf;
+                p{
+                    color: white;
+                }
             }
         }
     }
@@ -762,12 +762,13 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
             .question-title{
                 font-size: 24px;
                 text-align: end;
-                color: #000;
                 margin-bottom: 15px;
+                p {
+                    color: black;
+                }
             }
             .dialogue-input {
-                background: rgb(0,78,152);
-                background: linear-gradient(270deg, rgba(0,78,152,1) 0%, rgba(58,110,165,1) 100%); 
+                background: #393cb0;
                 border-radius: 10px;
                 a {
                     outline: none;
@@ -777,14 +778,14 @@ box-shadow: 39px 52px 104px -15px rgba(0,0,0,0.29);
                 .input-d-box {
                     font-size: 22px;
                     padding: 10px;
-                    border-right: solid 10px #ff6700;
-                    border-bottom: solid 1px #ebebeb;
+                    border-right: solid 10px #47d6cf;
+                    border-bottom: solid 3px #47d6cf;
                     margin-bottom: 10px;
                     text-align: end;
                 }
                 .input-d-box:hover {
                     width: 100%;
-                    background: #ff6700;
+                    background: #47d6cf;
                     border-radius: 10px;
                 }
             }
