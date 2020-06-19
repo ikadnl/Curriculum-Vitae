@@ -46,7 +46,7 @@ function minimize(close) {
 
 function answer0() {
   
-  var irakli = "magari tipi vaaaaar"
+  var irakli = "As you have already seen some information about me, I should also mention that I'm self-motivated in learning and doing things. My enthusiasm and passion towards completing my goals are the best things that helps me motivate myself. Also having creative mind makes me be fascinated with technology and futurism."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
@@ -54,11 +54,20 @@ function answer0() {
   document.getElementById("myAnswer").innerHTML = "";
   document.getElementById("answer").appendChild(text);
   removeElement("myAnswer");
+
+  var int = "Tell me more about yourself.";
+  var text2 = document.createElement("p");
+  var txt2 = document.createTextNode(int);
+  text2.appendChild(txt2);
+  text2.id = "intp";
+  document.getElementById("intp").innerHTML = "";
+  document.getElementById("int-txt").appendChild(text2);
+  removeElement("intp");
 }
 
 function answer1(){
 
-  var irakli = "fuleeeeeeee"
+  var irakli = "Currently my goal is to get in the industry of advertising. For now I'm attending course of Copywriting in Digital Acadedmy. I have decided to reach the peak of myself in the field of advertising with the hard work."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
@@ -66,6 +75,15 @@ function answer1(){
   document.getElementById("myAnswer").innerHTML = "";
   document.getElementById("answer").appendChild(text);
   removeElement("myAnswer");
+
+  var int = "What is your goal?";
+  var text2 = document.createElement("p");
+  var txt2 = document.createTextNode(int);
+  text2.appendChild(txt2);
+  text2.id = "intp";
+  document.getElementById("intp").innerHTML = "";
+  document.getElementById("int-txt").appendChild(text2);
+  removeElement("intp");
 }
 
 function answer2(){
@@ -78,6 +96,15 @@ function answer2(){
   document.getElementById("myAnswer").innerHTML = "";
   document.getElementById("answer").appendChild(text);
   removeElement("myAnswer");
+
+  var int = "Where do you see yourself in several years?";
+  var text2 = document.createElement("p");
+  var txt2 = document.createTextNode(int);
+  text2.appendChild(txt2);
+  text2.id = "intp";
+  document.getElementById("intp").innerHTML = "";
+  document.getElementById("int-txt").appendChild(text2);
+  removeElement("intp");
 }
 
 
