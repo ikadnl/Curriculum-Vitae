@@ -5,6 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syncopate&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gelasio&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -44,20 +46,31 @@ html {
 body {
   background: white;
   overflow-x: hidden; }
+  body p {
+    font-family: 'Inconsolata', monospace; }
   body header {
     z-index: 1000;
-    background: transparent;
+    background: white;
     margin-bottom: 10px;
-    background: #393cb0; }
+    border-bottom: 5px solid #393cb0;
+    opacity: 0.97; }
+    body header #hire {
+      background: #393cb0;
+      padding: 20px 45px;
+      font-size: 18px;
+      color: white !important;
+      border-radius: 10px;
+      margin-left: 45px; }
     body header .navbar-brand {
       margin-left: 20px;
-      color: white !important;
+      color: #afacae !important;
       padding-bottom: 12px;
-      font-size: 24px; }
+      font-size: 24px;
+      font-family: 'Open Sans', sans-serif; }
     body header .navbar-brand:hover {
       text-decoration: none; }
     body header a {
-      color: white;
+      color: #afacae;
       outline: 0; }
     body header .navbarLogo a {
       font-family: 'Syncopate', sans-serif;
@@ -179,11 +192,12 @@ body {
     width: 38px; } }
   body .footer-section {
     width: 100%;
-    height: 200px;
-    background: #393cb0;
+    height: 175px;
+    background: transparent;
     padding: 50px;
     margin: 0 auto;
-    margin-top: 150px; }
+    margin-top: 150px;
+    border-top: 5px solid #393cb0; }
     body .footer-section .social-networks {
       width: 200px;
       margin-bottom: 30px; }
@@ -249,8 +263,6 @@ body {
       body .footer-section .contacts .contacts-info a {
         color: #ebebeb !important;
         outline: 0; }
-  body p {
-    font-family: 'Inconsolata', monospace; }
 
 .overflowh {
   overflow-y: hidden; }
@@ -304,105 +316,101 @@ body {
 .section01 {
   scroll-margin-top: 65px;
   margin-top: 140px;
-  color: #f2f1f4;
+  color: black;
   margin-bottom: 100px; }
   .section01 .skills-pa {
     width: 100%;
     margin-bottom: 100px; }
     .section01 .skills-pa p {
-      color: black;
       font-size: 55px; }
   .section01 .skill-div {
-    height: 300px;
     width: 350px;
-    background: #393cb0;
+    background: transparent;
     border-width: 40px 20px;
     border-radius: 10px 60px;
-    transition: all .5s ease-in-out;
-    -webkit-box-shadow: 10px 10px 49px -17px rgba(0, 0, 0, 0.72);
-    -moz-box-shadow: 10px 10px 49px -17px rgba(0, 0, 0, 0.72);
-    box-shadow: 10px 10px 49px -17px rgba(0, 0, 0, 0.72); }
+    transition: all .5s ease-in-out; }
     .section01 .skill-div .skill-scale {
       margin-right: -8%;
-      font-size: 13px; }
+      font-size: 16px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #393cb0; }
     .section01 .skill-div .skill-field {
-      padding: 15px 0px 12px 0px;
+      padding: 15px 0px 30px 0px;
       font-size: 25px; }
     .section01 .skill-div .skill-name {
       padding-top: 9px;
       padding-bottom: 7px;
-      font-size: 17px; }
+      font-size: 20px; }
     .section01 .skill-div .skill-bar {
-      height: 15px;
+      height: 30px;
       width: 100%;
       background: #f2f1f4;
       border-radius: 9px; }
       .section01 .skill-div .skill-bar .english {
         width: 93%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .german {
         width: 77%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .russian {
         width: 75%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .georgian {
         width: 99%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .html01 {
         width: 100%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 5px; }
       .section01 .skill-div .skill-bar .scss {
         width: 85%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .javascript {
-        width: 67%;
+        width: 75%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .msoffice {
         width: 88%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .communication {
         width: 92%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .teamwork {
         width: 95%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .organized {
         width: 91%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
       .section01 .skill-div .skill-bar .creative {
         width: 120%;
         height: 100%;
-        background: #afacae;
+        background: #393cb0;
         border-radius: 9px; }
   .section01 .skill-div:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.4); }
 
 .section-spam {
-  border: 4px solid #b7b5cc;
   margin-top: 225px; }
   .section-spam .spam-box {
     width: auto;
@@ -415,12 +423,12 @@ body {
       .section-spam .spam-box .spam-title p {
         margin-top: 17px;
         padding: 6px;
-        border: solid 4px #b7b5cc;
-        color: #f1f2f4; }
+        color: #fff; }
     .section-spam .spam-box .spam-texts {
       padding-top: 100px;
-      font-size: 21px;
-      word-break: break-all; }
+      font-size: 31px;
+      word-break: break-all;
+      font-family: 'Sue Ellen Francisco', cursive; }
       .section-spam .spam-box .spam-texts .rotated45 {
         transform: rotate(45deg); }
       .section-spam .spam-box .spam-texts .rotated60 {
@@ -430,9 +438,9 @@ body {
       .section-spam .spam-box .spam-texts .rotated-45 {
         transform: rotate(-45deg); }
       .section-spam .spam-box .spam-texts .red {
-        color: #ff6700; }
+        color: #afacae; }
       .section-spam .spam-box .spam-texts .blue {
-        color: yellow; }
+        color: #47d6cf; }
 
 .section01-projects {
   scroll-margin-top: 65px;
@@ -456,9 +464,10 @@ body {
     background: white;
     padding: 15px;
     border-radius: 30px;
-    -webkit-box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21);
-    -moz-box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21);
-    box-shadow: 43px 21px 84px 11px rgba(175, 172, 174, 0.21); }
+    -webkit-box-shadow: 20px 25px 7px 1px rgba(57, 60, 176, 0.3);
+    -moz-box-shadow: 20px 25px 7px 1px rgba(57, 60, 176, 0.3);
+    box-shadow: 20px 25px 7px 1px rgba(57, 60, 176, 0.3);
+    transition: all .4s ease; }
     .section01-projects .project .embed-content img {
       padding: 10px;
       width: 130px;
@@ -475,7 +484,8 @@ body {
       text-align: center;
       font-size: 26px;
       padding: 10px 0;
-      background: #393cb0; }
+      background: #393cb0;
+      transition: all 0.4s ease; }
       .section01-projects .project .embed-name p {
         color: white; }
     .section01-projects .project .embed-info {
@@ -498,27 +508,43 @@ body {
         font-size: 20px;
         padding: 0 20px 20px 0;
         font-weight: lighter; }
+  .section01-projects .project:hover {
+    background: #393cb0;
+    color: white;
+    -webkit-box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3);
+    -moz-box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3);
+    box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3); }
+    .section01-projects .project:hover p {
+      color: white; }
+    .section01-projects .project:hover a {
+      color: white; }
+    .section01-projects .project:hover .embed-name {
+      background: white; }
+      .section01-projects .project:hover .embed-name p {
+        color: black; }
   .section01-projects .project-a {
     margin-bottom: 150px; }
     .section01-projects .project-a p {
-      color: #f2f1f4;
       line-height: 30px;
       font-size: 20px; }
     .section01-projects .project-a .embed-content-a {
       width: 100%; }
     .section01-projects .project-a .embed-text-a {
-      margin-left: -5px;
+      margin-left: 10px;
+      padding-right: 50px;
       margin-bottom: 5px;
-      background: #393cb0;
-      padding-bottom: -5px;
-      border-radius: 10px; }
+      transition: all .4s ease; }
       .section01-projects .project-a .embed-text-a .embed-name-a {
         padding: 40px; }
         .section01-projects .project-a .embed-text-a .embed-name-a p {
-          font-size: 45px;
+          font-size: 35px;
           font-family: 'Gelasio', serif; }
       .section01-projects .project-a .embed-text-a .embed-info-a {
         padding: 0 20px 20px 40px; }
+    .section01-projects .project-a .embed-text-a:hover {
+      -webkit-box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3);
+      -moz-box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3);
+      box-shadow: 20px 25px 7px -13px rgba(57, 60, 176, 0.3); }
 
 .section01-cv {
   scroll-margin-top: 65px;
@@ -609,7 +635,8 @@ body {
       margin-bottom: 40px;
       font-size: 40px; }
       .section01-interview .title-box .interview-title p {
-        color: black; }
+        color: black;
+        padding: 50px 0; }
 
 .section02-interview {
   margin-top: 30px; }
