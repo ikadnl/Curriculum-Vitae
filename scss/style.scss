@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import 'reset.scss';
 @import 'fonts.scss';
 
@@ -61,9 +68,15 @@ body{
         left: 0;
         top: 0;
         margin: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         background: #f1f2f4;
         z-index: 9999;
         .cssload-loader {
@@ -83,7 +96,8 @@ body{
             font-weight: 900;
             font-size: 70px; 
             background: #8a8a8a;
-            background-clip: text;
+            -webkit-background-clip: text;
+                    background-clip: text;
             -webkit-text-fill-color: transparent;
             letter-spacing: 0.2em;
        }
@@ -122,55 +136,7 @@ body{
                 width: 38px;
            }
        }
-        @-o-keyframes cssload-load {
-            0% {
-                left: 0;
-                height: 75px;
-                width: 38px;
-           }
-            50% {
-                height: 20px;
-                width: 100px;
-           }
-            100% {
-                left: 588px;
-                height: 75px;
-                width: 38px;
-           }
-       }
-        @-ms-keyframes cssload-load {
-            0% {
-                left: 0;
-                height: 75px;
-                width: 38px;
-           }
-            50% {
-                height: 20px;
-                width: 100px;
-           }
-            100% {
-                left: 588px;
-                height: 75px;
-                width: 38px;
-           }
-       }
         @-webkit-keyframes cssload-load {
-            0% {
-                left: 0;
-                height: 75px;
-                width: 38px;
-           }
-            50% {
-                height: 20px;
-                width: 100px;
-           }
-            100% {
-                left: 588px;
-                height: 75px;
-                width: 38px;
-           }
-       }
-        @-moz-keyframes cssload-load {
             0% {
                 left: 0;
                 height: 75px;
@@ -242,12 +208,25 @@ body{
                     font-size: 18px;
                     letter-spacing: 1px;
                     overflow: hidden;
+                    background: -webkit-gradient(linear, left top, right top, from(#47d6cf), to(#393cb0));
+                    background: -o-linear-gradient(left, #47d6cf, #393cb0);
                     background: linear-gradient(90deg, #47d6cf, #393cb0);
                     background-repeat: no-repeat;
                     background-size: 80%;
-                    animation: animate 3s linear infinite;
-                    background-clip: text;
+                    -webkit-animation: animate 3s linear infinite;
+                            animation: animate 3s linear infinite;
+                    -webkit-background-clip: text;
+                            background-clip: text;
                     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+                  }
+                  
+                  @-webkit-keyframes animate {
+                    0% {
+                      background-position: -500%;
+                    }
+                    100% {
+                      background-position: 500%;
+                    }
                   }
                   
                   @keyframes animate {
@@ -358,6 +337,8 @@ body{
         background: transparent;
         border-width: 40px 20px;
         border-radius: 10px 60px;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out;
         .skill-scale{
             margin-right: -8%;
@@ -454,8 +435,12 @@ body{
         }
     }
     .skill-div:hover { 
+        -webkit-transition: all .5s ease-in-out; 
+        -o-transition: all .5s ease-in-out; 
         transition: all .5s ease-in-out; 
-        transform: scale(1.2);
+        -webkit-transform: scale(1.2); 
+            -ms-transform: scale(1.2); 
+                transform: scale(1.2);
     }
     
 }
@@ -520,23 +505,35 @@ body{
        background: white;
        padding: 15px;
        border-radius: 30px;
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
         transition: all .4s ease;
         .embed-content{
             img{
                 padding: 10px;
                 width: 130px;
+                -webkit-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
                 transition: all 0.2s ease-in-out;
             }
             img:hover {
+                -webkit-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
                 transition: all 0.2s ease-in-out;
-                transform: scale(1.05);
+                -webkit-transform: scale(1.05);
+                    -ms-transform: scale(1.05);
+                        transform: scale(1.05);
             }
             a {
                 outline: 0;
             }
             #ulala-geo:hover{
+                -webkit-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
                 transition: all 0.2s ease-in-out;
-                transform: scale(1.25);
+                -webkit-transform: scale(1.25);
+                    -ms-transform: scale(1.25);
+                        transform: scale(1.25);
             }
         }
         .embed-name{
@@ -544,6 +541,8 @@ body{
             font-size: 26px;
             padding:10px 0;
             background: #393cb0;
+            -webkit-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
             transition: all 0.4s ease;
             p {
                 color: white;
@@ -618,6 +617,8 @@ body{
         position: relative;
         width: 300px;
         height: 300px;
+        -webkit-transition: all 500ms linear;
+        -o-transition: all 500ms linear;
         transition: all 500ms linear;
         .name-box {
             font-size: 32px;
@@ -649,6 +650,8 @@ body{
                 border-bottom: #393cb0 solid 3px;
                 height: 150px;
                 margin-top: 50px;
+                -webkit-transition: all 0.5s linear;
+                -o-transition: all 0.5s linear;
                 transition: all 0.5s linear;
                 .company-name {
                     padding-bottom: 15px;
@@ -719,16 +722,24 @@ body{
             font-size: 40px;
             font-family: 'Sue Ellen Francisco', cursive;
             .rotated45 {
-                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                        transform: rotate(45deg);
             }
             .rotated60 {
-                transform: rotate(60deg);
+                -webkit-transform: rotate(60deg);
+                    -ms-transform: rotate(60deg);
+                        transform: rotate(60deg);
             }
             .rotated-30{
-                transform: rotate(-30deg);
+                -webkit-transform: rotate(-30deg);
+                    -ms-transform: rotate(-30deg);
+                        transform: rotate(-30deg);
             }
             .rotated-45{
-                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
             }
             .red {
                 color: #8a8a8a;
@@ -849,6 +860,8 @@ body{
                     border-bottom: 1px solid #47d6cf;
                     margin-bottom: 10px;
                     text-align: end;
+                    -webkit-transition: all 0.3s;
+                    -o-transition: all 0.3s;
                     transition: all 0.3s;
                     width: 100%;
                 }
@@ -1015,15 +1028,26 @@ body{
 @media (max-width: 900px) {
     .section-projects {
         .project-a {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
             .embed-content-a {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                justify-content: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
                 margin: 0 auto;
                 iframe {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    justify-content: center;
+                    -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                            justify-content: center;
                 }
             }
         }
