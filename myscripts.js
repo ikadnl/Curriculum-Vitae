@@ -23,7 +23,7 @@ function showMore(more) {
   } else {
     x.style.display = "block";
     box.parentElement.style.width = "100%";
-    box.style.width = "100%";
+    box.style.height = "600px";
     more.style.display = "none";
     close.style.display = "block";
   }
@@ -33,7 +33,7 @@ function minimize(close) {
   var box = close.parentElement.parentElement;
   var more = close.previousElementSibling.previousElementSibling;
   var info = close.previousElementSibling;
-  box.style.width = "300px";
+  box.style.height = "300px";
   close.style.display = "none";
   more.style.display = "block";
   info.style.display = "none";
@@ -67,7 +67,7 @@ function answer0() {
 
 function answer1(){
 
-  var irakli = "Currently my goal is to get in the industry of advertising. For now I'm attending course of Copywriting in Digital Acadedmy. I have decided to reach the peak of myself in the field of advertising with the hard work."
+  var irakli = "Currently my goal is to get in the industry of advertising. For now I've successfully finished course of Copywriting in Digital Acadedmy. I have decided to reach the peak of myself in the field of advertising with the hard work."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
@@ -88,7 +88,7 @@ function answer1(){
 
 function answer2(){
 
-  var irakli = "trakshiiiiii"
+  var irakli = "In several years I see myself still learning new things and working more and more on myself, in order to achieve the most of myself."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
@@ -115,7 +115,6 @@ function overlay() {
 
 function test() {
   showMore(document.getElementById("edu-more"));
-  console.log("ebijo");
 }
 
 window.onload=function(){
