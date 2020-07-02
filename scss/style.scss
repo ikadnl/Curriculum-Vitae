@@ -42,7 +42,7 @@ body{
         .navbarLogo{
             a{
                 font-family: 'Syncopate', sans-serif;
-                font-size: 40px;
+                font-size: 45px;
             }
             a:hover {
                 text-decoration: none;
@@ -486,13 +486,16 @@ body{
              font-size: 20px;
          }
         .embed-content-a {
-            width: 100%;
+            width: 90%;
+            iframe {
+                width: 720px;
+                height: 406px;
+            }
         }
         .embed-text-a {
              margin-left: 10px;
              padding-right: 50px;
              margin-bottom: 5px;
-             transition: all .4s ease;
              .embed-name-a {
                 padding: 40px;
                 p {
@@ -622,7 +625,7 @@ body{
             margin-left: 10px;
             width: 90%;
             border-bottom: 2px solid #393cb0;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         #myDIV{
             display: none;
@@ -630,7 +633,6 @@ body{
             .ucompany {
                 font-size: 30px;
                 font-weight: bold;
-                margin-top: 30px;
                 border-right: #393cb0 solid 3px;
                 border-bottom: #393cb0 solid 3px;
                 height: 150px;
@@ -667,7 +669,7 @@ body{
             border-radius: 10px;
             border: none;
             position: absolute;
-            top: 40%;
+            top: 38%;
             left: 35%;
         }
         .close-button {
@@ -679,8 +681,13 @@ body{
             border-radius: 10px;
             border: none;
             position: absolute;
-            top: 20%;
+            top: 14%;
             left: 35%;
+        }
+    }
+    #edu-box {
+        .close-button {
+            top: 27%;
         }
     }
 }
@@ -689,7 +696,6 @@ body{
 // Here starts SPAM Section
 
 .section-spam{
-    margin-top: 175px;
     .spam-title{
         p{
             margin: 80px;
@@ -706,7 +712,7 @@ body{
         color: #ebebeb;
         .spam-texts{
             padding-top: 100px;
-            font-size: 31px;
+            font-size: 40px;
             font-family: 'Sue Ellen Francisco', cursive;
             .rotated45 {
                 transform: rotate(45deg);
@@ -757,7 +763,7 @@ body{
     margin-top: 30px;
     .dialogue-box {
         overflow-y: auto;
-        height: 400px;
+        height: auto;
         overflow-x: hidden;
         border-bottom: solid 3px #393cb0;
         margin-bottom: 30px;
@@ -781,17 +787,20 @@ body{
             }
             .irakli-text {
                 word-wrap:break-word;
-                width: 600px;
+                width: 100%;
                 height: auto;
-                padding: 17px;
+                padding: 25px;
                 font-size: 18px;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 line-height: 25px;  
                 background: #393cb0;
+                margin-bottom: 20px;
+                max-width: 600px;
             }
         }
         .interviewer {
             margin-top: 20px;
+            margin-bottom: 50px;
             width: 100%;
             .interviewer-photo {
                 padding-left: 20px;
@@ -800,16 +809,15 @@ body{
                 }
             }
             #int-txt{
-                width: 600px;
+                width: 100%;
+                max-width: 600px;
+                word-wrap: break-word;
                 font-size: 18px;
                 line-height: 25px;
                 height: auto;
-                padding: 17px;
+                padding: 25px;
                 background: #47d6cf;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                p{
-                    color: white;
-                }
             }
         }
     }
@@ -853,7 +861,19 @@ body{
 
 // Here starts RESPONSIVE SETTINGS
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
+    header {
+        .navbar {
+            .navbarDiv {
+                .navbar-brand {
+                    display: none;
+                }
+                #hire {
+                    display: inline-block;
+                }
+            }
+        }
+    }
     .section-welcome {
         .welcome-div {
             p {
@@ -889,12 +909,59 @@ body{
                 }
             }
         }
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-projects{
         .project:last-child {
             margin: 0 auto;
             margin-top: 20px;
         }
     }
+    .section-cv {
+        .section-box {
+            min-width: 34%;
+            margin: 0 auto;
+        }
+    }
+    .section-spam {
+        table:nth-child(2){
+            display: none;
+        }
+    }
 }
+
+@media (max-width: 1100px) {
+    .section-skills {
+        .skill-div {
+            width: 350px;
+        }
+        .skill-div:last-child {
+            margin-top: 100px;
+        }
+    }
+    .section-projects {
+        .project-a {
+            .embed-content-a {
+                iframe {
+                    width: 600px;
+                    height: 339px;
+                }
+            }
+            .embed-text-a {
+                .embed-name-a {
+                    padding: 5px 40px 40px 4px;
+                }
+            }
+        }
+    }
+    .footer-section{
+        .hire-box {
+            display: none;
+        }
+    }
+} 
 
 @media (max-width: 1000px) {
     .section-welcome {
@@ -910,7 +977,70 @@ body{
             }
         }
     }
+    .section-projects {
+        .project-a {
+            .embed-content-a {
+                iframe {
+                    width: 500px;
+                    height: 282px;
+                }
+            }
+            .embed-name-a {
+                margin-left: 40px;
+                p {
+                    font-size: 36px;
+                }
+            }
+            .embed-info-a {
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .section-cv {
+        .section-box{
+            min-width: 51%;
+        }
+    }
+        .section-box:last-child {
+            margin: 0 auto;
+        }
 }    
+
+@media (max-width: 900px) {
+    .section-projects {
+        .project-a {
+            display: flex;
+            flex-wrap: wrap;
+            .embed-content-a {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                iframe {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        .embed-text-a {
+            margin-top: 50px;
+            padding-left: 40px;
+            .embed-info-a {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .section-spam {
+        table:nth-child(3){
+            td:last-child{
+                display: none;
+            }
+        }
+    }
+}
 
 @media (max-width: 800px) {
     .section-welcome {
@@ -920,6 +1050,158 @@ body{
         .short-txt {
             display: inline-block;
             line-height: 25px;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .section-skills {
+        .skill-div {
+            width: 300px;
+        }
+    }
+    .section-cv {
+        .section-box {
+            margin: 0 auto;
+        }
+    }
+    .footer-section {
+        .social-networks {
+            .logo-div{
+                margin-right: 15px;
+            }
+        }
+        .contacts {
+            .contacts-name{
+                font-size: 26px;
+            }
+            .contacts-colon {
+                font-size: 16px;
+            }
+            .contacts-info {
+                font-size: 18px;
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 755px) {
+    header {
+        .navbar {
+            .hvr-grow {
+                font-size: 36px;
+            }
+            .navbarDiv {
+                #hire {
+                    padding: 15px 25px;
+                }
+            }
+        }
+    }
+    .section-projects {
+        .project-a {
+            .embed-text-a {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+        .project{
+            margin: 0 auto;
+            margin: 40px auto;
+        }
+        .project:last-child {
+            margin-top: 0px;
+        }
+    }
+    .section-spam {
+        table:nth-child(1){
+            td:last-child{
+                display: none;
+            }
+            td:first-child{
+                display: none;
+            }
+        }
+    }
+    .footer-section {
+        .contacts {
+            margin: 0 auto;
+        }
+        .social-info {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        .copyrights {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .section-skills {
+        .skill-div {
+            width: 350px;
+        }
+        .skill-div:first-child {
+            margin-bottom: 75px;
+        }
+        .skill-div:last-child {
+            margin-top: 75px;
+        }
+    }
+    .section-spam {
+        table:nth-child(3){
+            display: none;
+        }
+        table:nth-child(1){
+            display: none;
+        }
+        table:nth-child(2){
+            display: inline-block;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    header {
+        .navbar {
+            .navbarDiv {
+                #hire {
+                    padding: 12px 20px;
+                }
+            }
+        }
+    }
+    .section-skills {
+        .skill-div {
+            .skill-scale {
+                margin-right: 0px;
+            }
+        }
+    }
+    .section-projects {
+        .project-a {
+            .embed-text-a {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .section-projects {
+        .project-a {
+            .embed-text-a {
+                margin-top: -20px;
+            }
+        }
+    }
+    .section-spam {
+        .spam-title {
+            text-align: center;
         }
     }
 }

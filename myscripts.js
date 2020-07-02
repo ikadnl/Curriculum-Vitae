@@ -23,7 +23,11 @@ function showMore(more) {
   } else {
     x.style.display = "block";
     box.parentElement.style.width = "100%";
-    box.style.height = "600px";
+    if(box.id == "edu-box") {
+      box.style.height = "400px"
+    } else {
+      box.style.height = "800px";
+    }
     more.style.display = "none";
     close.style.display = "block";
   }
