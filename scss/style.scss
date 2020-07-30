@@ -887,6 +887,18 @@ body{
 
 // Here starts RESPONSIVE SETTINGS
 
+@media (max-width: 1300px) {
+    .section-spam {
+        .spam-box {
+            .spam-words {
+                table:last-child{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1250px) {
     header {
         .navbar {
@@ -936,15 +948,6 @@ body{
             }
         }
     }
-    .section-spam {
-        .spam-box {
-            .spam-words {
-                table:last-child{
-                    display: none;
-                }
-            }
-        }
-    }
 }
 
 @media (max-width: 1200px) {
@@ -959,8 +962,6 @@ body{
             min-width: 34%;
             margin: 0 auto;
         }
-    }
-    .section-spam {
     }
 }
 
@@ -994,6 +995,18 @@ body{
         }
     }
 } 
+
+@media (max-width: 1050px){
+    .section-spam {
+        .spam-box {
+            .spam-words {
+                table:nth-child(3){
+                    display: none;
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 1000px) {
     .section-welcome {
@@ -1037,15 +1050,6 @@ body{
         }
         .section-box:last-child {
             margin: 0 auto;
-        }
-    }  
-    .section-spam {
-        .spam-box {
-            .spam-words {
-                table:nth-child(3){
-                    display: none;
-                }
-            }
         }
     }
 }    

@@ -719,6 +719,10 @@ body {
       background: #47d6cf;
       border-radius: 5px; }
 
+@media (max-width: 1300px) {
+  .section-spam .spam-box .spam-words table:last-child {
+    display: none; } }
+
 @media (max-width: 1250px) {
   header .navbar .navbarDiv .navbar-brand {
     display: none; }
@@ -738,9 +742,7 @@ body {
   .section-projects .project-a p {
     line-height: 24px; }
   .section-projects .project-a .embed-text-a .embed-info-a {
-    padding: 0 0 0 23px; }
-  .section-spam .spam-box .spam-words table:last-child {
-    display: none; } }
+    padding: 0 0 0 23px; } }
 
 @media (max-width: 1200px) {
   .section-projects .project:last-child {
@@ -761,6 +763,10 @@ body {
   .section-projects .project-a .embed-text-a .embed-name-a {
     padding: 5px 40px 40px 4px; }
   .footer-section .hire-box {
+    display: none; } }
+
+@media (max-width: 1050px) {
+  .section-spam .spam-box .spam-words table:nth-child(3) {
     display: none; } }
 
 @media (max-width: 1000px) {
@@ -785,9 +791,7 @@ body {
   .section-cv .section-box {
     min-width: 51%; }
   .section-cv .section-box:last-child {
-    margin: 0 auto; }
-  .section-spam .spam-box .spam-words table:nth-child(3) {
-    display: none; } }
+    margin: 0 auto; } }
 
 @media (max-width: 900px) {
   .section-projects .project-a {
