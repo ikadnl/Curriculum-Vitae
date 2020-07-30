@@ -312,6 +312,7 @@ body{
             img {
                 margin: 0 auto;
                 width: 800px;
+                height: auto;
             }
         }
     }
@@ -1090,8 +1091,6 @@ body{
             }
         }
     }
-    .section-spam {
-    }
 }
 
 @media (max-width: 800px) {
@@ -1175,8 +1174,6 @@ body{
             margin-top: 0px;
         }
     }
-    .section-spam {
-    }
     .footer-section {
         .contacts {
             margin: 0 auto;
@@ -1202,8 +1199,6 @@ body{
         .skill-div:last-child {
             margin-top: 75px;
         }
-    }
-    .section-spam {
     }
 }
 
@@ -1259,8 +1254,6 @@ body{
     .section-spam {
         .spam-title {
             text-align: center;
-        }
-        .spam-box {
         }
     }
     .footer-section {
