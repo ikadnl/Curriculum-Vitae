@@ -282,7 +282,8 @@ body {
       right: 0%;
       font-size: 24px; }
     .section-welcome .welcome-div .welcome-photo img {
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 800px; }
 
 .section-skills {
   scroll-margin-top: 90px;
@@ -599,6 +600,10 @@ body {
     padding-top: 100px;
     font-size: 40px;
     font-family: 'Sue Ellen Francisco', cursive; }
+    .section-spam .spam-box .spam-texts .spam-words table {
+      margin-right: 50px; }
+      .section-spam .spam-box .spam-texts .spam-words table .want-job {
+        padding-top: 50px; }
     .section-spam .spam-box .spam-texts .rotated45 {
       -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
@@ -727,13 +732,15 @@ body {
     .section-welcome .welcome-div .welcome-info02 p {
       margin-left: 20px; }
   .section-welcome .welcome-div .welcome-photo img {
-    width: 440px; }
+    width: 700px; }
   .section-skills .skill-div {
     width: 300px; }
   .section-projects .project-a p {
     line-height: 24px; }
   .section-projects .project-a .embed-text-a .embed-info-a {
-    padding: 0 0 0 23px; } }
+    padding: 0 0 0 23px; }
+  .section-spam .spam-box .spam-words table:last-child {
+    display: none; } }
 
 @media (max-width: 1200px) {
   .section-projects .project:last-child {
@@ -741,9 +748,7 @@ body {
     margin-top: 20px; }
   .section-cv .section-box {
     min-width: 34%;
-    margin: 0 auto; }
-  .section-spam table:nth-child(2) {
-    display: none; } }
+    margin: 0 auto; } }
 
 @media (max-width: 1100px) {
   .section-skills .skill-div {
@@ -762,9 +767,10 @@ body {
   .section-welcome {
     margin-bottom: 200px; }
     .section-welcome .welcome-div .welcome-info02 {
-      top: 110%; }
+      top: 80%;
+      left: 70%; }
     .section-welcome .welcome-div .welcome-photo {
-      width: 400px;
+      width: 600px;
       margin: 0 auto;
       margin-top: 200px; }
   .section-projects .project-a .embed-content-a iframe {
@@ -778,8 +784,10 @@ body {
     font-size: 18px; }
   .section-cv .section-box {
     min-width: 51%; }
-  .section-box:last-child {
-    margin: 0 auto; } }
+  .section-cv .section-box:last-child {
+    margin: 0 auto; }
+  .section-spam .spam-box .spam-words table:nth-child(3) {
+    display: none; } }
 
 @media (max-width: 900px) {
   .section-projects .project-a {
@@ -807,9 +815,7 @@ body {
     margin-top: 50px;
     padding-left: 40px; }
     .section-projects .embed-text-a .embed-info-a p {
-      font-size: 20px; }
-  .section-spam table:nth-child(3) td:last-child {
-    display: none; } }
+      font-size: 20px; } }
 
 @media (max-width: 800px) {
   .section-welcome .long-txt {
@@ -839,6 +845,8 @@ body {
     font-size: 36px; }
   header .navbar .navbarDiv #hire {
     padding: 15px 25px; }
+  .section-welcome .welcome-div .welcome-info02 {
+    left: 85%; }
   .section-projects .project-a .embed-text-a {
     padding-left: 0px;
     padding-right: 0px; }
@@ -847,10 +855,6 @@ body {
     margin: 40px auto; }
   .section-projects .project:last-child {
     margin-top: 0px; }
-  .section-spam table:nth-child(1) td:last-child {
-    display: none; }
-  .section-spam table:nth-child(1) td:first-child {
-    display: none; }
   .footer-section .contacts {
     margin: 0 auto; }
   .footer-section .social-info {
@@ -865,17 +869,14 @@ body {
   .section-skills .skill-div:first-child {
     margin-bottom: 75px; }
   .section-skills .skill-div:last-child {
-    margin-top: 75px; }
-  .section-spam table:nth-child(3) {
-    display: none; }
-  .section-spam table:nth-child(1) {
-    display: none; }
-  .section-spam table:nth-child(2) {
-    display: inline-block; } }
+    margin-top: 75px; } }
 
 @media (max-width: 560px) {
   header .navbar .navbarDiv #hire {
     padding: 12px 20px; }
+  .section-welcome .welcome-div .welcome-info02 {
+    top: 35%;
+    left: 0%; }
   .section-skills .skill-div .skill-scale {
     margin-right: 0px; }
   .section-projects .project-a .embed-text-a {
@@ -888,8 +889,6 @@ body {
     margin-top: -20px; }
   .section-spam .spam-title {
     text-align: center; }
-  .section-spam .spam-box table:nth-child(4) {
-    display: none; }
   .footer-section .contacts-info {
     font-size: 15px !important; }
   .footer-section .social-info .copyrights .ikadnl p {

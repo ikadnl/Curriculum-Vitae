@@ -311,6 +311,7 @@ body{
         .welcome-photo {
             img {
                 margin: 0 auto;
+                width: 800px;
             }
         }
     }
@@ -721,6 +722,14 @@ body{
             padding-top: 100px;
             font-size: 40px;
             font-family: 'Sue Ellen Francisco', cursive;
+            .spam-words {
+                table {
+                    margin-right: 50px;
+                    .want-job {
+                        padding-top: 50px;
+                    }
+                }
+            }
             .rotated45 {
                 -webkit-transform: rotate(45deg);
                     -ms-transform: rotate(45deg);
@@ -905,7 +914,7 @@ body{
             }
             .welcome-photo {
                 img {
-                    width: 440px;
+                    width: 700px;
                 }
             }
         }
@@ -927,6 +936,15 @@ body{
             }
         }
     }
+    .section-spam {
+        .spam-box {
+            .spam-words {
+                table:last-child{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1200px) {
@@ -943,9 +961,6 @@ body{
         }
     }
     .section-spam {
-        table:nth-child(2){
-            display: none;
-        }
     }
 }
 
@@ -985,10 +1000,11 @@ body{
         margin-bottom: 200px;
         .welcome-div {
             .welcome-info02 {
-                top: 110%;
+                top: 80%;
+                left: 70%;
             }
             .welcome-photo {
-                width: 400px;
+                width: 600px;
                 margin: 0 auto;
                 margin-top: 200px;
             }
@@ -1019,10 +1035,19 @@ body{
         .section-box{
             min-width: 51%;
         }
-    }
         .section-box:last-child {
             margin: 0 auto;
         }
+    }  
+    .section-spam {
+        .spam-box {
+            .spam-words {
+                table:nth-child(3){
+                    display: none;
+                }
+            }
+        }
+    }
 }    
 
 @media (max-width: 900px) {
@@ -1062,11 +1087,6 @@ body{
         }
     }
     .section-spam {
-        table:nth-child(3){
-            td:last-child{
-                display: none;
-            }
-        }
     }
 }
 
@@ -1129,6 +1149,13 @@ body{
             }
         }
     }
+    .section-welcome {
+        .welcome-div {
+            .welcome-info02 {
+                left: 85%;
+            }
+        }
+    }        
     .section-projects {
         .project-a {
             .embed-text-a {
@@ -1145,14 +1172,6 @@ body{
         }
     }
     .section-spam {
-        table:nth-child(1){
-            td:last-child{
-                display: none;
-            }
-            td:first-child{
-                display: none;
-            }
-        }
     }
     .footer-section {
         .contacts {
@@ -1181,15 +1200,6 @@ body{
         }
     }
     .section-spam {
-        table:nth-child(3){
-            display: none;
-        }
-        table:nth-child(1){
-            display: none;
-        }
-        table:nth-child(2){
-            display: inline-block;
-        }
     }
 }
 
@@ -1203,6 +1213,14 @@ body{
             }
         }
     }
+    .section-welcome {
+        .welcome-div {
+            .welcome-info02 {
+                top: 35%;
+                left: 0%;
+            }
+        }
+    }  
     .section-skills {
         .skill-div {
             .skill-scale {
@@ -1239,9 +1257,6 @@ body{
             text-align: center;
         }
         .spam-box {
-            table:nth-child(4){
-                display: none;
-            }
         }
     }
     .footer-section {
