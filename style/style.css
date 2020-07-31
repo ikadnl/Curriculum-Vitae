@@ -281,7 +281,7 @@ body {
       top: 60%;
       right: 0%;
       font-size: 24px; }
-    .section-welcome .welcome-div .welcome-photo {
+    .section-welcome .welcome-div .welcome-photo img {
       margin: 0 auto;
       width: 800px;
       height: auto; }
@@ -734,10 +734,11 @@ body {
     line-height: 24px; }
   .section-welcome .welcome-div .welcome-info02 {
     width: 250px; }
-    .section-welcome .welcome-div .welcome-info02 p {
-      margin-left: 20px; }
   .section-welcome .welcome-div .welcome-photo {
+    margin-left: 100px;
     width: 700px; }
+    .section-welcome .welcome-div .welcome-photo img {
+      width: auto; }
   .section-skills .skill-div {
     width: 300px; }
   .section-projects .project-a p {
@@ -774,12 +775,11 @@ body {
   .section-welcome {
     margin-bottom: 200px; }
     .section-welcome .welcome-div .welcome-info02 {
-      top: 80%;
-      left: 70%; }
-    .section-welcome .welcome-div .welcome-photo {
+      top: 40%;
+      left: 0%; }
+    .section-welcome .welcome-div .welcome-photo img {
       width: 600px;
-      margin: 0 auto;
-      margin-top: 200px; }
+      margin: 0 auto; }
   .section-projects .project-a .embed-content-a iframe {
     width: 500px;
     height: 282px; }
@@ -851,7 +851,13 @@ body {
   header .navbar .navbarDiv #hire {
     padding: 15px 25px; }
   .section-welcome .welcome-div .welcome-info02 {
-    left: 85%; }
+    left: 10%; }
+  .section-welcome .welcome-div .welcome-photo {
+    width: 600px;
+    margin-left: 0px; }
+    .section-welcome .welcome-div .welcome-photo img {
+      width: auto;
+      margin-top: 0px; }
   .section-projects .project-a .embed-text-a {
     padding-left: 0px;
     padding-right: 0px; }
@@ -883,8 +889,9 @@ body {
     top: 35%;
     left: 0%; }
   .section-welcome .welcome-photo {
-    width: 300px;
-    height: auto; }
+    width: 600px; }
+    .section-welcome .welcome-photo img {
+      width: auto; }
   .section-skills .skill-div .skill-scale {
     margin-right: 0px; }
   .section-projects .project-a .embed-text-a {
