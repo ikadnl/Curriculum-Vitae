@@ -309,11 +309,9 @@ body{
             font-size: 24px;
         }
         .welcome-photo {
-            img {
                 margin: 0 auto;
                 width: 800px;
                 height: auto;
-            }
         }
     }
 }
@@ -926,9 +924,7 @@ body{
                 }
             }
             .welcome-photo {
-                img {
                     width: 700px;
-                }
             }
         }
     }
@@ -1219,6 +1215,10 @@ body{
                 left: 0%;
             }
         }
+        .welcome-photo {
+            width: 300px;
+            height: auto;
+        }
     }  
     .section-skills {
         .skill-div {
@@ -1237,14 +1237,6 @@ body{
 }
 
 @media (max-width: 500px) {
-    .section-welcome {
-        .welcome-photo {
-            img {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    }
     .section-projects {
         .project-a {
             .embed-text-a {
