@@ -889,7 +889,8 @@ body {
 
 @media (max-width: 500px) {
   .section-welcome .welcome-photo img {
-    width: 300px; }
+    width: 300px;
+    height: 300px; }
   .section-projects .project-a .embed-text-a {
     margin-top: -20px; }
   .section-spam .spam-title {
