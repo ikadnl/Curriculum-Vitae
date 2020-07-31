@@ -1155,14 +1155,17 @@ body{
     .section-welcome {
         .welcome-div {
             .welcome-info02 {
-                left: 10%;
+                top: 30%;
+                left: 0%;
             }
             .welcome-photo {
                 width: 600px;
                 margin-left: 0px;
+                height: 600px;
                 img {
-                    width: auto;
+                    width: 100%;
                     margin-top: 0px;
+                    height: 100%;
                 }
             }
         }
@@ -1225,12 +1228,6 @@ body{
             .welcome-info02 {
                 top: 35%;
                 left: 0%;
-            }
-        }
-        .welcome-photo {
-            width: 600px;
-            img {
-                width: auto;
             }
         }
     }  

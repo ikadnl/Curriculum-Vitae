@@ -851,13 +851,16 @@ body {
   header .navbar .navbarDiv #hire {
     padding: 15px 25px; }
   .section-welcome .welcome-div .welcome-info02 {
-    left: 10%; }
+    top: 30%;
+    left: 0%; }
   .section-welcome .welcome-div .welcome-photo {
     width: 600px;
-    margin-left: 0px; }
+    margin-left: 0px;
+    height: 600px; }
     .section-welcome .welcome-div .welcome-photo img {
-      width: auto;
-      margin-top: 0px; }
+      width: 100%;
+      margin-top: 0px;
+      height: 100%; }
   .section-projects .project-a .embed-text-a {
     padding-left: 0px;
     padding-right: 0px; }
@@ -888,10 +891,6 @@ body {
   .section-welcome .welcome-div .welcome-info02 {
     top: 35%;
     left: 0%; }
-  .section-welcome .welcome-photo {
-    width: 600px; }
-    .section-welcome .welcome-photo img {
-      width: auto; }
   .section-skills .skill-div .skill-scale {
     margin-right: 0px; }
   .section-projects .project-a .embed-text-a {
