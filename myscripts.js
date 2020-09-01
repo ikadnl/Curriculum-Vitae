@@ -71,7 +71,7 @@ function answer0() {
 
 function answer1(){
 
-  var irakli = "Currently my goal is to get in the industry of advertising. For now I've successfully finished course of Copywriting in Digital Acadedmy. I have decided to reach the peak of myself in the field of advertising with the hard work."
+  var irakli = "Currently my goal is to get in the industry of advertising. For now I am creating content for Touch Platform. I have decided to reach the peak of myself in the field of advertising with the hard work."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);

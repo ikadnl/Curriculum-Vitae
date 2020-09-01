@@ -289,6 +289,7 @@ body{
 .section-welcome {
     scroll-margin-top: 90px;
     color: #8a8a8a;
+    position: relative;
     .short-txt {
         display: none;
     }
@@ -708,6 +709,7 @@ body{
     .spam-title{
         p{
             margin: 80px;
+            margin-top: 150px;
             padding: 6px;
             color: black;
             letter-spacing: 3px;
