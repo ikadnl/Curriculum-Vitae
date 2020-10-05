@@ -68,7 +68,6 @@ body {
       padding: 20px 45px;
       font-size: 18px;
       color: white !important;
-      border-radius: 10px;
       margin-left: 45px; }
     body header .navbar-brand {
       margin-left: 20px;
@@ -287,6 +286,12 @@ body {
       width: 800px;
       height: auto; }
 
+.ikadnl-border {
+  width: 100%;
+  height: 120px;
+  background-color: #393cb0;
+  opacity: 0.95; }
+
 .section-skills {
   scroll-margin-top: 90px;
   margin-top: 140px;
@@ -378,7 +383,7 @@ body {
         background: #393cb0;
         border-radius: 9px; }
       .section-skills .skill-div .skill-bar .creative {
-        width: 120%;
+        width: 150%;
         height: 100%;
         background: #393cb0;
         border-radius: 9px; }
@@ -422,20 +427,27 @@ body {
       .section-projects .project-a .embed-text-a .embed-name-a {
         padding: 40px; }
         .section-projects .project-a .embed-text-a .embed-name-a p {
-          font-size: 35px;
-          font-family: 'Gelasio', serif; }
+          font-size: 35px; }
       .section-projects .project-a .embed-text-a .embed-info-a {
         padding: 0 20px 20px 40px; }
+  .section-projects .margin-right-100 {
+    margin-right: 100px; }
   .section-projects .project {
     position: relative;
     width: 320px;
     margin-bottom: 50px;
     background: white;
     padding: 15px;
-    border-radius: 30px;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     transition: all .4s ease; }
+    .section-projects .project .embed-content .blogs-geo {
+      height: 178px;
+      width: 120%;
+      margin-left: -10%; }
+    .section-projects .project .embed-content .blogs {
+      width: 112%;
+      margin-left: -6%; }
     .section-projects .project .embed-content img {
       padding: 10px;
       width: 130px;
@@ -461,7 +473,7 @@ body {
     .section-projects .project .embed-name {
       text-align: center;
       font-size: 26px;
-      padding: 10px 0;
+      padding: 10px 10px;
       background: #393cb0;
       -webkit-transition: all 0.4s ease;
       -o-transition: all 0.4s ease;
@@ -473,14 +485,25 @@ body {
       padding: 30px 15px;
       padding-bottom: 50px; }
       .section-projects .project .embed-info p {
-        font-family: 'Gelasio', serif;
-        line-height: 24px; }
+        font-size: 18px;
+        line-height: 23px; }
     .section-projects .project .embed-button {
       text-align: end;
       position: absolute;
       left: 50%;
       top: 90%; }
       .section-projects .project .embed-button a {
+        outline: none;
+        outline: 0;
+        text-decoration: none;
+        color: #393cb0;
+        font-size: 20px;
+        padding: 0 20px 20px 0;
+        font-weight: lighter; }
+    .section-projects .project .embed-button2 {
+      margin-top: 10px;
+      margin-left: 45px; }
+      .section-projects .project .embed-button2 a {
         outline: none;
         outline: 0;
         text-decoration: none;
