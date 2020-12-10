@@ -24,7 +24,7 @@ function showMore(more) {
     x.style.display = "block";
     box.parentElement.style.width = "100%";
     if(box.id == "edu-box") {
-      box.style.height = "400px"
+      box.style.height = "400px";
     } else {
       box.style.height = "800px";
     }
@@ -71,7 +71,7 @@ function answer0() {
 
 function answer1(){
 
-  var irakli = "Currently my goal is to get in the industry of advertising. For now I am creating content for Touch Platform. I have decided to reach the peak of myself in the field of advertising with the hard work."
+  var irakli = "Currently my goal is to get in the industry of advertising. For now I am creating content for Creative Culture. I have decided to reach the peak of myself in the field of advertising with the hard work."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
