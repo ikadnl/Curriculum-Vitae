@@ -316,6 +316,9 @@ body{
                 height: auto;
             }
         }
+        // .strava {
+        //     margin-top: -200px;
+        // }
     }
 }
 
@@ -650,6 +653,7 @@ body{
     .section-box {
         position: relative;
         width: 300px;
+        margin-bottom: 200px;
         height: 300px;
         -webkit-transition: all 500ms linear;
         -o-transition: all 500ms linear;
@@ -737,7 +741,6 @@ body{
 // Here starts SPAM Section
 
 .section-spam{
-    margin-top: 200px;
     .spam-title{
         p{
             margin: 80px;

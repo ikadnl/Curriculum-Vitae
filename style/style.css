@@ -525,6 +525,7 @@ body {
   .section-cv .section-box {
     position: relative;
     width: 300px;
+    margin-bottom: 200px;
     height: 300px;
     -webkit-transition: all 500ms linear;
     -o-transition: all 500ms linear;
@@ -591,48 +592,47 @@ body {
   .section-cv #edu-box .close-button {
     top: 27%; }
 
-.section-spam {
-  margin-top: 200px; }
-  .section-spam .spam-title p {
-    margin: 80px;
-    margin-top: 150px;
-    padding: 6px;
-    color: black;
-    letter-spacing: 3px;
-    font-size: 55px; }
-  .section-spam .spam-box {
-    width: auto;
-    height: 350px;
-    background: #393cb0;
-    color: #ebebeb; }
-    .section-spam .spam-box .spam-texts {
-      padding-top: 100px;
-      font-size: 40px;
-      font-family: 'Sue Ellen Francisco', cursive; }
-      .section-spam .spam-box .spam-texts .spam-words table {
-        margin-right: 50px; }
-        .section-spam .spam-box .spam-texts .spam-words table .want-job {
-          padding-top: 50px; }
-      .section-spam .spam-box .spam-texts .rotated45 {
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg); }
-      .section-spam .spam-box .spam-texts .rotated60 {
-        -webkit-transform: rotate(60deg);
-        -ms-transform: rotate(60deg);
-        transform: rotate(60deg); }
-      .section-spam .spam-box .spam-texts .rotated-30 {
-        -webkit-transform: rotate(-30deg);
-        -ms-transform: rotate(-30deg);
-        transform: rotate(-30deg); }
-      .section-spam .spam-box .spam-texts .rotated-45 {
-        -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        transform: rotate(-45deg); }
-      .section-spam .spam-box .spam-texts .red {
-        color: #8a8a8a; }
-      .section-spam .spam-box .spam-texts .blue {
-        color: #47d6cf; }
+.section-spam .spam-title p {
+  margin: 80px;
+  margin-top: 150px;
+  padding: 6px;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 55px; }
+
+.section-spam .spam-box {
+  width: auto;
+  height: 350px;
+  background: #393cb0;
+  color: #ebebeb; }
+  .section-spam .spam-box .spam-texts {
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: 'Sue Ellen Francisco', cursive; }
+    .section-spam .spam-box .spam-texts .spam-words table {
+      margin-right: 50px; }
+      .section-spam .spam-box .spam-texts .spam-words table .want-job {
+        padding-top: 50px; }
+    .section-spam .spam-box .spam-texts .rotated45 {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg); }
+    .section-spam .spam-box .spam-texts .rotated60 {
+      -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      transform: rotate(60deg); }
+    .section-spam .spam-box .spam-texts .rotated-30 {
+      -webkit-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+      transform: rotate(-30deg); }
+    .section-spam .spam-box .spam-texts .rotated-45 {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    .section-spam .spam-box .spam-texts .red {
+      color: #8a8a8a; }
+    .section-spam .spam-box .spam-texts .blue {
+      color: #47d6cf; }
 
 .section01-interview {
   margin-top: 100px; }
