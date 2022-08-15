@@ -68,7 +68,8 @@ body {
       padding: 20px 45px;
       font-size: 18px;
       color: white !important;
-      margin-left: 45px; }
+      margin-left: 45px;
+      border-radius: 5px; }
     body header .navbar-brand {
       margin-left: 20px;
       color: #8a8a8a !important;
@@ -82,7 +83,8 @@ body {
       outline: 0; }
     body header .navbarLogo a {
       font-family: 'Syncopate', sans-serif;
-      font-size: 45px; }
+      font-size: 45px;
+      color: #393cb0 }
     body header .navbarLogo a:hover {
       text-decoration: none; }
   body #overlay {
@@ -260,6 +262,15 @@ body {
 .overflowh {
   overflow-y: hidden; }
 
+.purple-line {
+  margin: auto;
+  width: 70%;
+  border-style: solid;
+  border-bottom-color: #393cb0;
+  border-bottom-width: 3px;
+  height: 50px;
+}
+
 .section-welcome {
   scroll-margin-top: 90px;
   color: #8a8a8a;
@@ -279,6 +290,7 @@ body {
       position: absolute;
       top: 60%;
       right: 0%;
+      width: 300px;
       font-size: 24px; }
     .section-welcome .welcome-div .welcome-photo img {
       margin: 0 auto;
@@ -351,8 +363,8 @@ body {
         width: 85%;
         height: 100%;
         background: #393cb0; }
-      .section-skills .skill-div .skill-bar .msoffice {
-        width: 88%;
+      .section-skills .skill-div .skill-bar .react-js {
+        width: 42%;
         height: 100%;
         background: #393cb0; }
       .section-skills .skill-div .skill-bar .communication {
@@ -507,6 +519,22 @@ body {
       .section-projects .project:hover .embed-name p {
         color: black; }
 
+.brands {
+  margin-bottom: 70px;
+} 
+.brands .brandbox {
+  height: 200px;
+  width: 200px;
+}
+  .brands .brandbox .brandlogo {
+    height: 150px;
+    border-radius: 50%;
+}
+  .brands .brandbox .brandname {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
 .section-cv {
   scroll-margin-top: 90px;
   margin-top: 150px;
@@ -525,7 +553,6 @@ body {
   .section-cv .section-box {
     position: relative;
     width: 300px;
-    margin-bottom: 200px;
     height: 300px;
     -webkit-transition: all 500ms linear;
     -o-transition: all 500ms linear;
@@ -546,6 +573,7 @@ body {
       .section-cv .section-box #myDIV .ucompany {
         font-size: 30px;
         font-weight: bold;
+        color: #393cb0;
         border-right: #393cb0 solid 3px;
         border-bottom: #393cb0 solid 3px;
         height: 150px;
@@ -566,7 +594,8 @@ body {
         .section-cv .section-box #myDIV .work-line .info-date {
           padding: 15px 0;
           color: #393cb0;
-          font-size: 20px; }
+          font-size: 20px;
+          font-weight: 800; }
         .section-cv .section-box #myDIV .work-line .info-box {
           padding-bottom: 30px;
           font-size: 20px; }
@@ -577,7 +606,7 @@ body {
       color: #f2f1f4;
       border: none;
       position: absolute;
-      top: 38%;
+      top: 110px;
       left: 35%; }
     .section-cv .section-box .close-button {
       display: none;
@@ -587,14 +616,13 @@ body {
       color: #f2f1f4;
       border: none;
       position: absolute;
-      top: 14%;
+      top: 110px;
       left: 35%; }
-  .section-cv #edu-box .close-button {
-    top: 27%; }
+
 
 .section-spam .spam-title p {
-  margin: 80px;
-  margin-top: 150px;
+  margin-bottom: 80px;
+  margin-top: 100px;
   padding: 6px;
   color: black;
   letter-spacing: 3px;

@@ -24,9 +24,11 @@ function showMore(more) {
     x.style.display = "block";
     box.parentElement.style.width = "100%";
     if(box.id == "edu-box") {
-      box.style.height = "400px";
-    } else {
-      box.style.height = "800px";
+      box.style.height = "750px";
+    } if (box.id == "work-box") {
+      box.style.height = "1400px";
+    } if (box.id == "certificate-box"){
+      box.style.height = "1400px";
     }
     more.style.display = "none";
     close.style.display = "block";
@@ -50,7 +52,7 @@ function minimize(close) {
 
 function answer0() {
   
-  var irakli = "As you have already seen some information about me, I should also mention that I'm self-motivated in learning and doing things. My enthusiasm and passion towards completing my goals are the best things that helps me motivate myself. Also having creative mind makes me be fascinated with technology and futurism."
+  var irakli = "As you have already seen some information about me, I should also mention that I'm self-motivated in learning and doing things. My enthusiasm and passion towards completing my goals are the best things that helps me motivate myself. Also having creative mind makes me be fascinated with technology, logics and futurism."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
@@ -71,7 +73,7 @@ function answer0() {
 
 function answer1(){
 
-  var irakli = "Currently my goal is to get in the industry of advertising. For now I am creating content for Creative Culture. I have decided to reach the peak of myself in the field of advertising with the hard work."
+  var irakli = "Currently my goal is to master marketing. For now I am creating content for TBC Insurance. I have decided to reach the peak of myself in the field of advertising with the hard work."
   var text = document.createElement("p");
   var txt = document.createTextNode(irakli)
   text.appendChild(txt);
